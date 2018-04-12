@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	background-image: url('../img/back1.jpeg');
+	background-position: center center;
+	background-size: cover;
+}
+
+.mainTitle {
+	background-image: url('../img/back2.jpg');
+	background-position: center center;
+	background-size: cover;
+	padding: 1rem 2rem;
+	text-align: right;
+}
+
+.secondaryTitle {
+	padding: 0.5rem 1rem;
+}
+
+h1,
+h2 {
+	color: white;
+}
+
+h1 {
+	font-size: 3.6rem;
+}
+
+h2 {
+	font-size: 2.4rem;
+}
+
+p {
+	font-size: 2rem;
+}
+
+.redText {
+	color: red;
+}
+
+.backgroundRed {
+	background-color: red;
+}
+.backgroundBlue {
+	background-color: blue;
+}
+
+.backgroundGreen {
+	background-color: green;
+}
+.column {
+	width: 33.3%;
+	float: left;
+	padding: 0 2rem;
+}
+
+.mainContainer {
+	background-color: white;
+	margin: 2rem 8rem 8rem 8rem;
+	padding: 5rem;
+}
+
+.secondaryContainer {
+	padding: 2rem;
+}
+
+.cleaner {
+	clear: both;
+}
+
+.firstColumn {
+	border-right-style: dashed;
+	border-right-color: red;
+}

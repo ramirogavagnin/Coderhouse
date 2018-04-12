@@ -1,0 +1,39 @@
+ordenarse por partes en css
+general
+
+about
+
+etc. 
+
+
+
+botones
+para posicionar tenes que llegar a 10 entre los rem del icono y el contenerdo
+posicionar elemento
+.circle{
+
+height: 3rem;
+width: 3rem;
+
+position: fixed;  te queda el icono clavado sin scrollear, scrolleas la pagina y el icono sigue en el mismo lugar.
+
+cursor: pointer;  te hace la manito para clickear elementos
+
+z-index: 1 o 10000; es la propiedad para que un elemento quede adelante de todo!
+
+-----------
+
+fontawsome
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+html head
+
+----------
+
+nav haces un list y le mandas display: inline-block
+
+------
+
+manu desplegable del navbar
+

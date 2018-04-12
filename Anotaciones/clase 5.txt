@@ -1,0 +1,28 @@
+cuando flotas elementos para que el contenedor padre pueda seguir ocupando el alto y ancho original
+se pone un dic class: cleaner y en css .cleaner { cleaner: both }
+
+overflow; hidden - scroll 
+propiedad para ocultar o scrollear el contenido que quede por fuera del contenedor
+
+
+overflow-y: scroll -----> se scrollea para abajo
+
+flotacion para hacer natvar
+
+contenedores flotados:
+
+darle un contenedor,
+flotarlo,
+meterle un div claner abajo.
+
+
+background-size: cover; le digo desde el centro agrandate hasta cubrir el 100% del contenedor
+
+*{
+    box-sizing: border-box
+}
+
+me respeta los bordes de los contenedores
+
+
+

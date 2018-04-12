@@ -1,0 +1,50 @@
+<ol> order list
+<ul> unorder list
+! + enter crear html
+dentro de <li> puede haber cualquier cosa
+
+table/
+table border "1"
+table head / <tr></tr> (table road una fila)
+
+"colspan" une las celdas
+
+table body / tr / td
+-----------------
+
+form a seria un formulario envio y recepcion de datos y method (post / get ) post manda get recibe
+
+placeholder (sugerencia)
+
+input "text" / "number" / "submit" o enviar + value para cambiar el cuadradito de enviar por lo que quiera escribir / "date"
+input "password"
+
+select name "selectAge" id="selectAge"  barrita para seleccionar edad por ej.
+<option value "18">18 años</options>
+
+<label for="male">
+      <input type "radio" name "gender"> value="male" id="male" Masculino</label>
+<label for="">
+      <input type "radio" name "gender"> value="female" id="female" Femenino</label>
+<label for="">      
+      <input type "radio" name "gender"> value="other" id="other" Otro</label>
+
+
+value es el valor que se envia al servidor.
+gender seria el nombre repetido para que elija un valor de los 3.
+
+
+MDN pagina de consulta sobre codigo
+
+<img src="../milanesa.jpeg"  alr="Milanesa con Salsa">
+
+../../milanesa.jpeg  por cada ../ sale de la carpeta donde esta el index para buscar el directorio de la imagen
+
+SVG formato de imagen que no se pixela hecha con vectores.
+
+
+LINKS dentro de <a href="wwww.google.com" target "_blank"> me abre el link en una nueva pestaña
+
+Campos requeridos en input se le agrega un "required" y salta que si o si hayq ue completar el campo
+
+El input va dentro del label

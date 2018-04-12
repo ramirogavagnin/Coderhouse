@@ -1,0 +1,69 @@
+it@coderhouse.com
+
+navegador cliente
+servidor amazon web service por ejemplo
+
+Servidor: base de datos, contraseñas, etc.
+
+guarda informacion
+ 
+divs - contenedores de bloque: una orden para un grupo de elementos
+los h1, h2 son contenedores lineales
+----
+
+visual studio code. Editor de texto
+o zuline
+.md mark down
+
+---
+gighub
+--
+ index.html archivo principal
+
+---
+<doctype html> como lo vas a leer
+
+<head>
+ 
+<body>
+
+<h1> Hello Worl </h1> son estilos, h1= titulo principal, h2 subtitulo, etc.
+
+<p> parrafo </p>
+
+<title (titulo de la pestaña)>
+
+el html5 no lee los espacios enter
+
+<br/> (salto de linea)
+-----------------
+<p>
+Hola
+<span> mundo <span> ----le aplica un estilo solo a mundo mas alla del estilo del parrafo
+Como estas?
+<p>
+<!--     --> comentar, no se ejecuta en el navegador es como una marca o comentario o recordatorio de lo que hiciste
+cierra con <html>
+
+<nav>  </nav> navbar -  barra de navegación
+--------
+
+<aside> es contenido que no tiene que ver con mi pagina publicidad por ejemple
+
+html5??
+----------
+body--- es un tag para el navegador para interpretar
+
+main por pagina
+
+section (seccion principal) puede ser mas de uno
+
+article pueden ser varios. Section y Article son de bloque al igual que el div, por defecto ocupan el total y despues
+se puede acomodar.
+
+footer es el pie de pagina
+
+frontend seria la parte del cliente
+backend seria el servidor
+
+desafio sony ps4 camera

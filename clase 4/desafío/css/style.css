@@ -1,0 +1,65 @@
+html {
+    font-size: 62.5%;
+    font-family: Georgia, 'Times New Roman', Times, serif; color: grey;
+}
+
+.logo {
+    background-image: url('../img/logo.jpg');
+    background-repeat: no-repeat;
+    background-size: 25rem;
+    padding: 10rem;
+    margin-top: 2rem;
+    border-bottom: dotted; color: lightblue; 
+  
+}
+
+.noDots {
+
+    list-style: none;
+
+}
+
+.Dots {
+
+    list-style-type: disc;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+.Menu {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem; 
+
+    
+}
+#buscar {
+border-color: lightgrey;
+}
+
+h3 {
+
+    font-size: 1.5rem;
+}
+
+.footimages {
+
+    width: 50%;
+    float: left;
+    
+}
+
+
+.cleaner {
+    clear: both;
+}
+
+h1 {
+font-size: 4rem;
+}
+
+h2{
+    font-size: 2rem;
+}

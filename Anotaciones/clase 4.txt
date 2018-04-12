@@ -1,0 +1,178 @@
+a {
+text-decoration: none;
+}
+
+a:hover {
+ seria hover lo que marca el curso y se le puede poner una accion}
+
+
+a:
+-------------
+
+font size
+
+rem = resolution element ---> seria 1 rem es igual al valor de font size del html (por defecto es 16px)
+
+un  truco es ir al css y poner
+
+
+caniuse.com para ver si puedo usar algo en css o html
+
+-------------
+ESPACIADOS
+
+letter-spacing: x rem; espaciado entre letra y letra
+
+word-spacing: x rem espaciado entre palabras
+
+line-heigth: x rem  espaciado entre lineas
+
+----------
+
+
+en css pones:
+
+html {
+font-size: 62.5%;
+}
+
+De esta manera podemos usar rem para medida de texto: 1 rem seria 10px y asi.... 
+
+
+---------------------
+
+en html le haces class: upper, lower y capitalize
+
+y en css
+
+para pasar el texto a minuscula, mayuscula o mayuscula la primera letra de cada palabra.
+
+text-transform: lowercase -----------> minuscula
+
+text-transform: uppercase -----------> mayuscula
+
+text-transform: capitalize -----------> primera en mayuscula 
+
+
+--------------
+
+
+
+familia de fuentes
+
+css/ 
+
+html {
+
+font-family: arial, verdana, sans-serif  (primero arial, si no tiene arial verdana, y sino alguna de la familia de 
+sans-serif
+
+
+-----------
+
+
+app.zeplin.io  mockups!!
+
+
+-------------
+
+
+
+
+hexadecimal #0033ff
+
+rgba (0,0,0,34) transparencia
+
+
+------------
+
+
+Borde div
+
+en html <div class: "container">
+
+en css .container
+
+bordes: solid, none, dashed, etc.
+
+border-left or right o bottom or top-style or color or width or wide: 
+
+para hacer un borde entero a un div
+
+border: yellow solid 0.2 rem
+
+
+Margenes:
+margin-top: 1 rem margenes entre divs
+
+------------------:
+
+Color al fondo del div
+background-color: red;
+
+---------------------
+
+
+Fondo del body
+
+body {
+
+bacground-image: url (../img /pato.jpg)
+ ¨       -repeat: repeat; or something else
+background-position: 0 0 (X e Y) mejor en rem ;D  o opciones center u otras
+
+height: 100 vh;
+
+vh view port height ----> es lo que ve el usuario height: 100 vh; y wide: 100 vh; seria el 100% de la pantalla  
+vw view port wide ----> es lo que ve del ancho
+se usa para aplicarlo en un contenedor.
+
+
+}
+
+el div o el body ocupa el 100% del ancho de la pantalla
+
+----------------------
+
+
+ALINEAR TEXTO
+
+text-aling: center; etc..
+
+---------
+
+Dots styles
+
+.fuits li {
+list-style-type: square; (cuadrados)
+}
+
+.order {
+list-style
+
+
+--------------------
+
+
+importar fonts (google fonts)
+
+Roboto
+
+como importarla:
+
+vas a google fonts y copiias el link de la fuente con las variables requeridas, al css va ARRIBA DE TODO 
+para asegurase que la fuente este disponible en todo el documento.
+
+@import url (lalalalagooglefont);
+
+
+-------------
+
+iconos
+
+font aswome te bajas la hoja de estilo y depsues busco en la pagina de font awsome y copio el tag Icon 
+o linkeo la ultima hoja desde la pagina de font awsome
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+con ese link hay que borrarle la b al fab fa-facebook.com etc...

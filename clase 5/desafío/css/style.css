@@ -1,0 +1,81 @@
+*{
+  box-sizing: border-box;
+}
+
+html{
+font-size: 62.5%;
+}
+
+body{
+    background-image: url('../img/back1.jpeg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.Main-title {
+    background-image: url('../img/back2.jpg');
+	background-position: center center;
+    background-size: cover;
+	padding: 0.5rem 2rem;
+	text-align: right;    
+}
+
+.Main-container{
+    background-color: white;
+    background-size: cover;
+    margin: 1rem 15rem 10rem 15rem;
+    padding: 5rem;
+}
+
+.secondaryConteiner{
+margin: 2rem 2rem 1rem 2rem;
+}
+
+h1{ 
+    color: white;
+font-size: 3.5rem;
+}
+h2{
+    color: white;
+    font-size: 2.5rem;
+}
+
+p{
+    font-size: 2rem;
+}
+
+.redText{
+    color: red;
+}
+
+.backgroundRed {
+    background-color: red;
+    
+    
+}
+
+
+.backgroundBlue {
+    background-color: blue;
+    
+}
+
+
+.backgroundGreen {
+    background-color: green;
+   
+}
+.secondaryTitle {
+    padding: 0.1rem 1rem;
+}
+
+.column {
+    width: 33.3%;
+    float: left;
+
+   
+}
+
+.cleaner {
+    clear: both;
+}

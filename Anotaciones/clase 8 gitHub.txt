@@ -1,0 +1,75 @@
+#about:hover article div:nth-child(1) .circle-image {seudoselector elige el div 1 o el hijo de  y asi...
+
+para salir a un nivel superior como en studio cd ..
+
+mac ls
+pc dir:
+
+git status 
+
+hacerle caso a las sugerencias
+
+git commit -m 'First commit'
+
+git log historial de commit o git log-2 5 o 10 te muestra los ultimos 2 5 o 10 commits
+
+
+git add . agrega todo para ser commitiados o git add.index.html agrega solo el index
+
+ahi algo git commit -m 'Second commit'
+
+en los -m ser lo mas descriptivo posible para ubicar bien los cambios
+
+git reset HEAD^  volves al commit anterior
+
+git reset 07bhudsu3847384  el ID del commit para ir a un commit especifico
+
+----
+
+git branch name ----> asi creo el brunch
+
+el brunch para laburar dos secciones diferentes de la pagina, el brunch se desprende del master (arbol principal de git)
+
+para trabajar sobre un brunch: git checkout brunch name puede ser el about o el master o cualquiera
+
+-----
+
+git merge about  estando parado en el master con merge fusiono los cambios del brunch que se quiera agregar, en este caso
+el about
+
+si aparecen dos puntos hacemos :wq + enter salis del editor diabolico
+
+------
+
+para desmergear volves al commit anterior ;D
+
+--------
+
+
+para sincronizar el git con gitHub
+
+con git push lo sincronizar con el servidor gitHub
+
+.md para un readme - hace dot, # hace h1 o titulo ## mas grande
+
+el clon de un repositorio es en la compu y el fork es desde la nube basicamente me choreo un repositorio
+
+---------------
+
+cuando pierdo la carpeta local con el proyecto voy a gitHub clone HTTPS copio la URL
+voy a consola pongo git clone link de gitHub y anteriormente me tuve que posicionar dentro de git en la carpeta local 
+que quisiese guardar mi proyecto.
+
+---------------
+
+
+git pull para traer del repositorio de gitHub los cambios que se hayan subido a gitHub siempre desde el brunch desde el que
+estar trabajando o desde el cual queres traer los cambios
+
+----------------
+
+
+
+
+
+

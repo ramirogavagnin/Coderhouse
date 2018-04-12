@@ -1,0 +1,98 @@
+estilos
+
+<p style="font-size: 3em; color: red">Principal</p>
+
+codigo de colores html
+
+Hexadecimal #C03B1E o RGB 255,0,0
+
+RGB
+<p style="font-size: 3em; color: rgb (255,0,0)">Principal</p>
+ 
+HEX
+
+
+
+Transparencia de estilo
+
+<p style="font-size: 3em; color: rgba (255,0,0,1)">Principal</p> maximo!
+
+<p style="font-size: 3em; color: rgba (255,0,0,0.87)">Principal</p> un poco menos
+
+los style se ponen en el head para que cuando carge la pagina se carga primero el estilo de la pagina y luego el contenido.
+
+<head
+
+<style>
+p{
+  font-size: 30px; color: deeppink;
+}
+con esto le doy estilo a todos los p!!! seria un estilo de etiqueta
+
+Head
+#niato {
+color: blue;
+}
+
+body
+
+<p id="niato"<Ñiato>/p>
+
+important le gana a todos :D 
+
+y un id le gana a todos menos al important
+
+</style>
+
+</head>
+
+---
+<span> lalala </span> Se usa para seleccionar un fragmento para aplicarle algo o no, mas que nada para textos!
+
+
+dentro del head
+
+*{ algo
+}
+
+seria un comodín le aplica a todo el html algo ...
+
+nivel de jerarquías
+
+--------
+*
+<> siendo especifico
+class
+
+--------
+
+el estilo en linea le gana a todo execepto que haya un !important
+el id le gana al estilo en linea?
+
+
+3 lenguajes:
+html
+css
+js
+
+cada uno seria un archivo
+
+buscar archivos
+./hola
+
+voy dentro de mi carpeta padre a la carpeta hola
+
+../hola
+
+voy a la carpeta padre desde la carpeta hola "saludo/hola"
+
+
+class se escribe .hola seria. + el nombre
+
+lo bueno de la clase a diferencia del id es que la podemos repetir las veces que querramos
+
+atajos del teclado visual studio
+www.dofactory.com
+
+ctrl+u comentar 
+ctrl+c descomentar

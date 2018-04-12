@@ -1,0 +1,57 @@
+/* GENERAL */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+   
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 200);
+    font-size: 2rem;
+}
+
+a:hover {
+color: rgb(0, 0, 0, 0.4);
+text-decoration: underline;
+}
+
+.home-text-conteiner {
+    width: 80%;
+}
+
+.about-text-conteiner {
+    width: 80%;
+}
+
+.history-text-conteiner {
+    width: 80%;
+}
+
+h1 {
+    
+    font-size: 4rem;
+}
+
+h2 {
+    
+    font-size: 2.5rem;
+}
+
+p{
+   
+    font-size: 1.7rem;
+    
+}
+
+
+
+
+/* FOOTER */
+
+.footer-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+}

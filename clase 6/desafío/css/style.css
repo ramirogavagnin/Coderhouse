@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,400,400i,500,500i,900,900i');
+/* GENERAL */
+
+* {
+    margin: 0;
+    box-sizing: border-box
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+main {
+    padding: 20rem 6rem 6rem 6rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.60);
+    /*  font-size: 2rem; */
+}
+
+a:hover {
+    color: rgb(0, 0, 0, 0.15);
+    text-decoration: none;
+}
+
+/* MAIN */
+
+.column {
+    width: 33.3%;
+    float: left;
+}
+
+.cleaner {
+    clear: both;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.7rem;
+}
+
+/* HEADER */
+
+header {
+    height: 15rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.30);
+    position: fixed;
+    top: 0;
+}
+
+
+nav {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    display: block;
+    
+}
+
+.mainNav {
+    margin-left: 3.3725rem;
+    margin-top: 4.6rem;
+    position: relative;
+}
+
+.mainNav li {
+    list-style-type: none;
+    font-size: 3.2rem;
+    margin: 1rem;
+    display: inline-block;
+}
+.secondaryHome {
+    display: block;
+    background-color: grey;
+    position: absolute;
+  
+}
+
+/* .cleaner{
+    clear: both;
+}
+ */
+
+
+/* FOOTER */
+
+.footer-text {
+    font-size: 1.8rem;
+}

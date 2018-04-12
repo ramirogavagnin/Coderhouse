@@ -1,0 +1,16 @@
+Estilos 
+
+2 maneras
+
+<style> en html
+
+en css
+con una carpeta css y un archivo style.css y una carpeta image para las linkear las imagenes
+
+
+dentro del css
+
+* color: red; le aplica a TODO el color rojo
+
+----
+

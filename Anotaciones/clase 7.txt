@@ -1,0 +1,105 @@
+margin 0 a todo
+imgage responsive
+
+div
+
+dentro img
+css
+al .circule-image img le decis que ocupe el 100%
+
+al contenedor .circule-image
+lo hago cuadrado
+ver foto
+
+
+---------------
+
+para el menu + imagen 
+se flota la nav para un lado y la imagen hacia el otro
+
+
+-----------
+
+
+min-width al diplay del nav ...??
+
+
+-----------
+
+
+position: sticky;
+margin-top: 0; 
+
+a la nav te queda como fixed pero desde donde esta el elemento
+
+-------------
+escalar componete:
+
+animar elemento css
+
+.circle
+transition:transform 2s linear 1s;
+.circle:hover 
+transform: scale(XY) linear;
+
+asi no espera la animacion cuando se pone el cursor sobre el elemento, sino linear 1s; o lo que sea..
+
+300 o 400ms se suelen usar
+transform: translate(10rem, -10rem);
+-X a la izq -Y hacia arriba
+-------------
+
+transform es para que se mueva o se escale
+el transition le dice que haya tal trasición 
+opacity: 0 
+.hover
+opacity 1 y aparece
+tambien se le puede agregar al ancho y el alto por ejemplo 
+tamien esta el atributo rotate: (45deg) en grados 
+
+---------
+
+overflow: hidden; propiedad para hacer desaparecer lo que queda por fuera de un contenedor
+
+--------
+propiedad key-frame para que la animaciones se reproduzcan solas sin hover
+
+al elemento 
+.elemento {
+position
+animation
+etc}
+
+
+@keyframes text_transition{
+    0%{
+        color: red;
+        
+        transform: rotate(0)
+    }
+    50%{
+        color: green;
+        
+        transform: rotate(180deg)
+    
+    }
+    100%{
+        color: blue;
+        transform: rotate(360deg)
+    }
+}
+
+
+------------
+
+
+checkbox y un label son hermanos si estan en el mismo div
+
+#checkbox:checked + label {
+background-color: y le cambia el color after check}
+
+
+-----------------
+
+
+background: linear-gradient(to top, blac)k; wihte
