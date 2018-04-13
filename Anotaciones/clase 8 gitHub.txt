@@ -37,7 +37,7 @@ para trabajar sobre un brunch: git checkout brunch name puede ser el about o el 
 git merge about  estando parado en el master con merge fusiono los cambios del brunch que se quiera agregar, en este caso
 el about
 
-si aparecen dos puntos hacemos :wq + enter salis del editor diabolico
+si aparecen dos puntos hacemos :wq + enter y salis del editor diabolico
 
 ------
 
@@ -57,7 +57,7 @@ el clon de un repositorio es en la compu y el fork es desde la nube basicamente 
 ---------------
 
 cuando pierdo la carpeta local con el proyecto voy a gitHub clone HTTPS copio la URL
-voy a consola pongo git clone link de gitHub y anteriormente me tuve que posicionar dentro de git en la carpeta local 
+voy a consola pongo git clone + link de gitHub y anteriormente me tuve que posicionar dentro de git en la carpeta local 
 que quisiese guardar mi proyecto.
 
 ---------------
@@ -67,6 +67,9 @@ git pull para traer del repositorio de gitHub los cambios que se hayan subido a 
 estar trabajando o desde el cual queres traer los cambios
 
 ----------------
+
+git config --list
+
 
 
 

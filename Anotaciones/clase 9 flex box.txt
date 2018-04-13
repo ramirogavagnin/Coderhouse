@@ -1,0 +1,55 @@
+.flex-item:nth-child(odd) impares y (even) pares  propiedad para modificar los hijos de un div o contenedor
+
+.flex-item:nth-child(n + 3) { background-color: yellow; } le agrega color amarillo a partir del 3er elemento
+
+------------------
+
+flex box
+
+row; flotado comun
+row reverse; flotado al revés
+
+column y column reverse; encolumna tipo display block
+
+flex-grap: si tenes 6 elementos y cada uno ocupa el 20% del contenedor el 6to te lo manda abajo como un float
+
+flex-no-grap: los elementos exceden el tamaño del contenedor te los comprime dentro de la misma linea.
+
+display: flex "en css dentro del contenedor u elemento"
+
+jutify-content: center; es un text aling para elementos; flex-start --> seria left y flex-end right
+
+y en column cambia el sentido el start arriba y el end abajo
+
+justify-content: space-between deja el mayor espacio posible entre cada elemento.
+
+aling-items: center center;
+
+aling-items: stretch; te agranda el item hasta ocupar el 100% del alto del padre
+
+------
+
+z-index ??
+
+------
+
+
+flex-grow: 1 o 2 afecta el ancho del elemento
+
+flex-shrink: afecta el tamaño de un elemento googlear!
+
+----------
+
+
+aling-self: center; es para alinear cada elemento o uno en particular.
+
+----------
+
+height: 100 vh; viewport height todo el alto y  viewport width el alto de la pantalla
+width: 100 vw;
+
+para hacer un scroll position fixed
+
+-----------
+
+box-shadow ???
