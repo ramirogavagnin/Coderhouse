@@ -1,0 +1,53 @@
+MEDIA QUERIES
+
+@media only screen and (max-width: 400px) { las cosas que cambian de 400px para abajo } 
+tambien se hace un min-width: 960px
+
+igual se usa la unidad em (cantidad de px / 16 = cantidad de em) por un issue con Safari en celu serian 60em
+ y en tablet 25em
+
+van abajo de todo ;)
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+sin esto en el html no te toma los media queries, hace de cuenta que es siempre desktop y achica el contenido 
+
+--------------
+
+grid = es una table para css.
+
+grid-template-colummn: y los valores de las columnas
+
+grid-template-rows: el alto de cada columna
+
+repeat (12, 1fr ) haces encolumnado de 12 
+o repeat (2, 30% 70%)
+
+se piensan los encolumnados de 12
+
+
+grid-template-colummn: 1fr 5fr;
+grid-template-rows: 20rem 30rem;
+grid-templete-area: "header header" "nav main" "nav main" "footer footer"
+
+propiedades para el padre
+
+grid-gap: 1rem; seria espaciado entre elementos
+grid-column-gap: 1 rem; solo para las columnas
+grid-rows-gap; 1 rem; solo para las filas
+
+justify-items:
+justify-content: elementos de flex dentro de un grid
+
+*box-sizing: border box;  hace los padding y los margin de afuera hacia adentro; 
+
+placeholder: "email" para que te aparezca antes de meter el cursor en el input email
+
+
+aligator.io pagina para consultar sintaxis html
+caniuse.com ver que propiedades son compatibles y cuales no tanto
+
+drawer ???
+material desing??
+
+
+

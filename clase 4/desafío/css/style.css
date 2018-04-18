@@ -6,7 +6,9 @@ html {
     box-sizing: border-box;
     margin: 0rem;
 }
-
+body{
+    padding: 1rem 2rem;
+}
 h1 {
     font-size: 4rem; color: grey;
     }
@@ -71,7 +73,9 @@ border-color: lightgrey;
     padding: 1.5rem;
 }
 
-
+.mainTitle {
+    padding: 3rem;
+}
 
 .textRight {
     text-align: right;
@@ -84,8 +88,8 @@ border-color: lightgrey;
 }
 
 .borderBottom {
-    border-bottom-style: solid; color: grey;
-    padding: 2rem 0 0 0.5rem;
+    border-bottom-style: solid; color: grey; 
+    padding: 3rem 0 0 0.5rem;
     margin: 0 0.5rem 0 0.5rem;
    
     
@@ -110,12 +114,18 @@ img {
 
 
 
+.imagesConteiner {
+    height: 30rem;
+    position: absolute;
+}
 
 .footImages {
 
     width: 50%;
     float: left;
     padding: 2rem;
+   height: 30rem;
+   
    
 }
 
@@ -123,4 +133,20 @@ img {
 .cleaner {
     clear: both;
 }
+
+.footerBar {
+
+    height: 10rem;
+width: 50%;
+background-color: rgba(0, 0, 0, 0.4);
+position: relative;
+float: left;
+}
+
+.socialMedia {
+
+    width: 33.3%;
+    float: left;
+}
+
 
