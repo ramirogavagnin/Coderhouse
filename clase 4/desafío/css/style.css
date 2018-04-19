@@ -114,17 +114,13 @@ img {
 
 
 
-.imagesConteiner {
-    height: 30rem;
-    position: absolute;
-}
-
 .footImages {
 
     width: 50%;
     float: left;
     padding: 2rem;
-   height: 30rem;
+   height: 32rem;
+   
    
    
 }
@@ -136,11 +132,10 @@ img {
 
 .footerBar {
 
-    height: 10rem;
-width: 50%;
+    height: 7rem;
 background-color: rgba(0, 0, 0, 0.4);
-position: relative;
-float: left;
+
+
 }
 
 .socialMedia {
@@ -148,5 +143,4 @@ float: left;
     width: 33.3%;
     float: left;
 }
-
 
