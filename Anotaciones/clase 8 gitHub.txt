@@ -2,7 +2,7 @@
 
 para salir a un nivel superior como en studio cd ..
 
-mac ls
+mac o ubuntu ls ver archivos
 pc dir:
 
 git status 
@@ -36,6 +36,14 @@ para trabajar sobre un brunch: git checkout brunch name puede ser el about o el 
 
 git merge about  estando parado en el master con merge fusiono los cambios del brunch que se quiera agregar, en este caso
 el about
+
+....
+
+line-height: la altura para lineas de texto.
+
+....
+
+para hacer una transition del menu lo que se mueven son los li o sea se transicionan los li y el div por
 
 si aparecen dos puntos hacemos :wq + enter y salis del editor diabolico
 

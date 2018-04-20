@@ -1,0 +1,87 @@
+node  
+
+nodejs
+
+
+npm (node package magnament)
+
+sudo apt-get install node nodejs npm  ---> comando console para instalar node, nodejs y npm
+
+sass
+
+node-sass
+
+nodemon
+
+
+npm -D sass node-sass nodemon  ----> command console para instalar sass, node-sass y nodemon
+
+...
+
+
+Para cortar el comando en ejecusión Crtl + C
+
+
+....
+
+
+editor de texto console
+
+vim
+
+con i modo insert para editar -- con esc no edit -- :q! salgo sin guardar -- :w guardar --:wq salir
+con guardar
+
+....
+
+scss
+
+para afectar al hijo
+
+li { &:nth-child(1) {
+color:  }
+
+ &:nth-child(1) {
+color:  }
+
+}
+
+
+flex-direction: column  ---> te encolumna los elementos dentro de un div o donde este..
+
+
+div class "wrapper"  seria para que contenga el contenido y quede separado del background
+
+por ej todos los article son class "wrapper" donde iría el contenido
+
+.....
+
+
+https://frontify.com/
+
+paletas de colores web
+
+
+....
+
+
+archivo var.scss (variables)
+
+$primary-color: red;
+
+$secondary-color: grey;
+
+entonces despues cuando tenes que usar una paleta de color (grey) 
+
+le mandas---  color: primarycolor;
+
+.....
+
+
+Para empezar a laburar y que compile el css desde scss me paro dentro de la consola en la carpeta donde tengo mi proyecto
+
+$ npm run watch-css
+
+y para cerrar guardo en visual y en la consola: ctrl C
+
+ 
