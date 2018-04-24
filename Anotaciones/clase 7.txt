@@ -102,4 +102,4 @@ background-color: y le cambia el color after check}
 -----------------
 
 
-background: linear-gradient(to top, blac)k; wihte
+background: linear-gradient(to top, black); wihte
