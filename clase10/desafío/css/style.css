@@ -5,17 +5,15 @@
     margin: 0;
     box-sizing: border-box
 }
-body{
-    padding: 1rem;
-}
+
 html {
     font-family: 'Roboto', sans-serif;
     font-size: 62.5%;
 }
-
-main {
-    padding: 4rem 2rem;
+body{
+    background-color: black;
 }
+
 
 a {
     text-decoration: none;
@@ -28,40 +26,51 @@ a:hover {
     text-decoration: none;
 }
 
+img {
+
+    width: 100%;
+    height: 100%;
+    
+}
+
 
 /* HEADER */
 
 header {
     height: 10rem;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.30);
+    background-color: black;
     position: relative;
     top: 0;
+    padding: 1rem;
+    
 }
 
 
-.headerTitle {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-size: 6rem;
-text-transform: capitalize;
-padding: 2rem;
+.header-logo{
+    height: 8rem;
+    width: 40rem;
+  
 }
 
 
-
-nav {
+nav { 
     position: sticky;
     top: 0;
-    background-color:slategray;
+    background-color:rgb(0, 0, 0, 0.15);
     color: white;
-    height: 7em;
-    
+    height: 5rem;
+    z-index: 10000;
+     
 }
  
 .mainNav {
- 
-    margin-left: 50%;
+    display: flex;
+    justify-content: center;
     
+    
+   
+   
 
 }
 
@@ -70,11 +79,12 @@ nav {
     font-size: 3.2rem;
     margin: 1rem;
     display: inline-block;
-    cursor: pointer;    
+    cursor: pointer; 
+     
 }
 
 .secondaryNav {
-    margin: 2.5rem 0rem;
+    /* margin: 2.5rem 0rem; */
     padding: 0.2rem;
     position: absolute;
 background-color: white;
@@ -97,20 +107,23 @@ color:black;
 /* MAIN */
 
 
-.column {
-    width: 33.3%;
-    float: left;
-    margin-top: 2rem -(33.3%);
-    text-align: center;
-    
-}
+/* HOME */
 
-.cleaner {
-    clear: both;
+.home-conteiner{
+    height: 20rem;
+    width: 100%;
+    margin-bottom: 20rem;
+    overflow: hidden;
+    background-position: center center;
+    background-image: url('../img/home-image1.jpg');
+    background-size: cover;
+  
+    
 }
 
 h1 {
     font-size: 4rem;
+    color: white;
     
 }
 
@@ -120,22 +133,42 @@ h2 {
 
 p {
     font-size: 1.7rem;
+    color: white;
 }
 
 
-.circleAndres{
-    width: 25rem;
-    height: 25rem;
+.column {
+    width: 33.3%;
+    float: left;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    
+   
+    
+}
+
+.cleaner {
+    clear: both;
+}
+.circle-image{
+    width: 23rem;
+    height: 23rem;
 overflow: hidden;
     border-radius: 50%;
    transition: transform ease 1s;
-   background-image: url('../img/andres2.jpg');
-   background-position: top left;
+   background-position: center center;
    background-size: cover;
-   margin: 7.5rem 1rem 1.5rem 7.9rem;
+   margin-left: 10rem;
+   margin-bottom: 1.5rem;
+   border-style: solid;
+   border-color: slategray;
+   
+   
+ 
 }
 
-.circleAndres:hover{
+.circle-image:hover{
 transform: scale(1.1);
 transition: 0.5seg;
 
@@ -143,40 +176,6 @@ transition: 0.5seg;
 
 
 
-.circleJuan{
-    width: 25rem;
-    height: 25rem;
-  overflow: hidden;
-    border-radius: 50%;
-    background-image: url('../img/juan.jpg');
-    background-position: center right;
-    background-size: cover;
-    margin: 2.5rem 1rem 1.5rem 7.9rem;
-    object-position: center center;
-    transition: transform ease 1s;
-}
-
-.circleJuan:hover{
-    transform: scale(1.1);
-    transition: 0.5seg;
-}
-
-.circleTiki{
-    width: 25rem;
-    height: 25rem;
-        border-radius: 50%;
-    overflow: hidden;
-    background-image: url('../img/tiki2.jpg');
-    background-position: center center;
-    background-size: cover;
-    margin: 10rem 1rem 1.5rem 7.9rem;
-    transition: transform ease 1s;
-    
-}
-.circleTiki:hover{
-    transform: scale(1.1);
-    transition: 0.5seg;
-}
 
 
 /* TABLE */
@@ -197,31 +196,88 @@ img {
 
 /* MEDIA QUERIES */
 
-@media only screen and (max-width: 48em) {
+@media only screen and (max-width: 26.5625em) {
+   
+    h1 {
+        font-size: 3rem;
+        color: white;
+        
+    }
+    
+    h2 {
+        font-size: 0.5rem;
+    }
+    
+    p {
+        font-size: 1.3rem;
+        color: white;
+    }
+    
+
+    header {
+        height: 10rem;
+        width: 100%;
+        background-color: black;
+        position: relative;
+        top: 0;
+        padding: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    
+    .header-logo{
+        height: 6rem;
+        width: 30rem;
+        
+        
+      
+    }
+    
+
     .mainNav {
- 
+ display: none;
      position: relative;
        margin:0;
-        /* background-color: red; */
+        background-color: red;
       
     }
     nav {
         position: relative;
         top: 0;
-        background-color:slategray;
+        background-color:black;
         color: white;
-        height: 7em;
+        height: 3rem;
+        
         
     }
+
+
+    .home-conteiner{
+        height: 20rem;
+        width: 100%;
+        margin-bottom: 12rem;
+        overflow: hidden;
+        background-position: center center;
+        background-image: url('../img/home-image1.jpg');
+        background-size: cover;
+      
+        
+    }
+
     .column {
-        /* width: 33.3%;
-        float: left;
-        margin-top: 2rem -(33.3%);
-        text-align: center; */
-        display: grid;
-        
+        width: 100%;
+        float: none;
+        text-align: center; 
+        padding: 0;
+   text-align: center;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
+      
         
     }
-    
+
+   
 }
 

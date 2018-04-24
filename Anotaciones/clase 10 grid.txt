@@ -13,6 +13,8 @@ sin esto en el html no te toma los media queries, hace de cuenta que es siempre 
 
 --------------
 
+
+
 grid = es una table para css.
 
 grid-template-colummn: y los valores de las columnas
