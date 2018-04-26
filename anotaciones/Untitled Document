@@ -1,0 +1,21 @@
+Prefijos de compatibilad 
+
+transform: sclase (1.2);
+-ms-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+-moz-transform: scale (1.2);
+
+tambien para transition
+
+@
+
+shouldiprefix.com --- chequear los prefix
+
+----
+
+reemplazar un cleaner en html por un after (que es un seudo selector) dentro del scss
+clearFix
+
+----
+
+librosweb.es/libro/css

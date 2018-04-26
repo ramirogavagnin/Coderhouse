@@ -92,6 +92,7 @@ nav {
 .mainNav {
  
     margin-left: 50%;
+    padding-bottom: 20rem;
     
 
 }
@@ -105,7 +106,7 @@ nav {
 }
 
 .secondaryNav {
-    margin: 2.5rem 0rem;
+    margin: 2.2rem 0rem;
     padding: 0.2rem;
     position: absolute;
 background-color: white;
@@ -114,15 +115,18 @@ color: black;
 display: none;
 cursor: pointer;
 
+
+
 }
 
 li:hover .secondaryNav {
 display: block;
 color:black;
 }
-.cleaner {
-    clear: both;
-} 
+
+.home {
+    padding-bottom: 4rem;
+}
 
 
 /* MAIN */

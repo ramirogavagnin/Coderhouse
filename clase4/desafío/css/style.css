@@ -120,27 +120,85 @@ img {
     float: left;
     padding: 2rem;
    height: 32rem;
+   margin-bottom: 9rem;
    
    
    
 }
+
+
+.footerBar {
+
+    height: 10rem;
+background-color: rgba(0, 0, 0, 0.2);
+float: left;
+width: 50%;
+
+}
+
+.newsletter{
+    float: left;
+    width: 33.3%;
+    padding-top: 3.5rem;
+}
+
+.newsFooter{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.socialMedia {
+
+    float: left;
+    width: 33.3%;
+    font-size: 3rem;
+    padding-left: 5rem;
+    padding-top: 2.5rem;
+    
+   
+}
+
+.icons {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: deepskyblue;
+    color: white;
+    padding: 1rem;
+    
+}
+
+.email {
+    height: 3rem;
+    width: 30rem;
+
+}
+
+
+.button{
+    height: 3rem;
+    width: 10rem;
+    background-color: deepskyblue;
+    color: white;
+    cursor: pointer;
+
+}
+
 
 
 .cleaner {
     clear: both;
 }
 
-.footerBar {
-
-    height: 7rem;
-background-color: rgba(0, 0, 0, 0.4);
+.footerBottom{
+    height: 10rem;
+    background-color: grey;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-weight: 100;
+    padding-top: 3rem;
 
 
 }
-
-.socialMedia {
-
-    width: 33.3%;
-    float: left;
-}
-
