@@ -9,7 +9,7 @@ igual se usa la unidad em (cantidad de px / 16 = cantidad de em) por un issue co
 van abajo de todo ;)
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-sin esto en el html no te toma los media queries, hace de cuenta que es siempre desktop y achica el contenido 
+sin esto en el html no te toma los mediaQueries, hace de cuenta que es siempre desktop y achica el contenido 
 
 --------------
 
@@ -42,11 +42,11 @@ justify-content: elementos de flex dentro de un grid
 
 *box-sizing: border box;  hace los padding y los margin de afuera hacia adentro; 
 
-placeholder: "email" para que te aparezca antes de meter el cursor en el input email
+placeholder: "email" para que te aparezca antes de meter el cursor en un input text 
 
 
 aligator.io pagina para consultar sintaxis html
-caniuse.com ver que propiedades son compatibles y cuales no tanto
+caniuse.com ver que propiedades son compatibles con los navegadores y cuales no tanto
 
 drawer ???
 material desing??

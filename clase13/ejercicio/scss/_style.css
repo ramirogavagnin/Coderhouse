@@ -1,0 +1,4 @@
+#rightNavbar {
+  display: flex !important;
+  justify-content: right !important;
+}

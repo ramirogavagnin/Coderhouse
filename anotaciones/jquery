@@ -1,0 +1,47 @@
+--los scrips se importan abajo de todo el html---
+primero instalo jquery npm install en mi proyecto
+
+carpeta js con un index.js 
+
+despues importo a mi html jquery
+en el medio js de bootstrap
+y por ultimo mi index.js
+
+para probar que importaste bien el js: console.log('Init de la app')
+
+
+
+funcion inicial para jq:
+
+$(document).ready(function(){
+
+console.log('Init de la app')
+
+})
+
+dentro de mi document ready pongo todo lo de js
+
+----------
+
+https://standardjs.com/
+
+standars de javascrip
+
+---------
+
+$(this) ---> es un selector de elementos, dentro de un mismo elemento jaaaa.
+
+
+-------
+
+.blur  ----> para forms te valida la info que pusiste antes de submit
+
+-----
+
+jquery documentation
+
+http://api.jquery.com/
+
+https://www.w3schools.com/jquery/jquery_css.asp
+
+

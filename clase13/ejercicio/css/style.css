@@ -1,0 +1,225 @@
+body {
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+h3 {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h4 {
+    color: gray;
+    font-style: italic;
+    font-size: 20px;
+}
+
+p {
+    color: slategray;
+    font-style: italic;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.container-fluid {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+
+/* NAV */
+
+.navbar-brand {
+    color: yellow !important;
+}
+
+.nav-item {
+    text-transform: uppercase !important;
+}
+
+#mainNav {
+    /* background-color:transparent !important; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar .container-fluid {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* HEADER */
+
+.mast-head {
+    background-image: url('../img/header-bg.jpg') !important;
+    height: 700px !important;
+    width: 100% !important;
+    text-align: center !important;
+    background-attachment: scroll !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    /* display: flex; */
+    /* align-items: center; */
+   /*  align-content: center; */
+}
+
+.image {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.intro-text {
+    padding-top: 300px;
+    padding-bottom: 200px;
+    text-align: center !important;
+    color: white !important;
+}
+
+.intro-text-lead {
+    text-transform: capitalize !important;
+    font-size: 40px !important;
+    font-weight: 200 !important;
+}
+
+.intro-uppercase {
+    font-size: 75px !important;
+    text-transform: uppercase !important;
+    font-weight: 400 !important;
+}
+
+.btn {
+    color: white;
+    font-size: 25px;
+    padding: 15px;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+
+/* SERVICES */
+
+#services {
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.circle {
+    background-color: yellow;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+
+
+/* PORTFOLIO */
+
+#portfolio {
+    padding-top: 190px;
+    padding-bottom: 190px;
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+#rowPortfoliio{ 
+
+    margin-top: 70px;
+}
+
+.portfolioImage1 {
+    background-image: url('../img/portfolio/01-thumbnail.jpg');
+    height: 300px;
+    width: 400px;
+    background-size: cover !important;
+    background-position: center center !important;
+    display: flex !important;
+    align-items: center !important;
+    border: solid; color: aliceblue;
+}
+
+.portfolioImage2 {
+    background-image: url('../img/portfolio/02-thumbnail.jpg');
+    background-size: cover !important;
+    background-position: center center !important;
+    display: flex !important;
+    align-items: center !important;
+    height: 300px;
+    width: 400px;
+    border: solid; color: aliceblue;
+}
+
+.portfolioImage3 {
+    background-image: url('../img/portfolio/03-thumbnail.jpg');
+    height: 300px;
+    width: 400px;
+    background-size: cover !important;
+    background-position: center center !important;
+    display: flex !important;
+    align-items: center !important;
+    border: solid; color: aliceblue;
+    
+}
+
+.portfolioImage4 {
+    background-image: url('../img/portfolio/04-thumbnail.jpg');
+    height: 300px;
+    width: 400px;
+    background-size: cover !important;
+    background-position: center center !important;
+    display: flex !important;
+    align-items: center !important;
+    border: solid; color: aliceblue;
+    
+    
+   
+  
+}
+
+.portfolioImage5 {
+    background-image: url('../img/portfolio/05-thumbnail.jpg');
+    height: 300px;
+    width: 400px;
+    background-size: cover !important;
+    background-position: center center !important;
+    display: flex !important;
+    align-items: center !important;
+    border: solid; color: aliceblue;
+  
+   
+}
+
+.portfolioImage6 {
+    background-image: url('../img/portfolio/06-thumbnail.jpg');
+    height: 300px;
+    width: 400px;
+    background-size: cover !important;
+    background-position: center center !important;
+    display: flex !important;
+    align-items: center !important;
+    border: solid; color: aliceblue;
+   
+}
+
+/* ABOUT */
+

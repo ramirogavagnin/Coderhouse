@@ -80,8 +80,14 @@ le mandas---  color: primarycolor;
 
 Para empezar a laburar y que compile el css desde scss me paro dentro de la consola en la carpeta donde tengo mi proyecto
 
+$ npm 
+
 $ npm run watch-css
 
 y para cerrar guardo en visual y en la consola: ctrl C
+
+ "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+ "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
 
  

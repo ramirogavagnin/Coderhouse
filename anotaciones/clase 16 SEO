@@ -1,0 +1,68 @@
+Lo primero voy a w3c y analizo mi web. Lo primero es el Lenguage. en el general seguranmente sea len=es en vez de len=en
+
+despues voy poniendo span leng=es o el idioma que fuese dentrod el contenido de la pagina.
+
+https://validator.w3.org/
+
+------
+
+si te pide un h1 y no lo queres poner porque es horrible, le mandas el h1 con display: none; 
+
+----
+
+img alt="Descripción Corta!!!"  alt=alternative
+
+
+------
+
+<meta name="keywords" content="Aca Seca Trio, Aca Seca, Aca, Trio">
+
+<meta name="description" content="una descripción de tu pagina">
+
+
+-----
+un articulo-- lista importante seo 2018
+
+https://moz.com/blog/product-launch-checklist
+
+------
+tabindex para los forms, podes tabear e ir de input en input
+
+https://developer.mozilla.org/es/docs/Web/HTML/Atributos_Globales/tabindex
+
+------
+
+spotify for developers
+
+https://beta.developer.spotify.com/documentation/widgets/generate/play-button/
+
+
+--------
+
+test mobile friendly
+
+https://search.google.com/test/mobile-friendly
+
+Page speed google
+
+https://developers.google.com/speed/pagespeed/insights/?hl=es
+
+---------
+
+landing page??
+
+-----
+
+por ultimo lo subo a google
+
+https://www.google.com/webmasters/tools/submit-url?pli=1
+
+-----
+
+
+
+
+
+
+
+

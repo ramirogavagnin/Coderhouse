@@ -1,0 +1,78 @@
+#trino {
+  background-color: rgba(0, 0, 0, 0.09);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+  border-top-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.trino {
+  background-image: url("../img/trino.jpeg");
+  overflow: hidden;
+  background-size: cover;
+  background-position: center center;
+  height: 20rem;
+  width: 20rem;
+  padding: 1rem 1rem;
+}
+
+#bio {
+  padding-top: 3rem;
+  /* padding-bottom: 5rem; */
+}
+
+.bioText {
+  text-transform: capitalize;
+  color: orange;
+  font-weight: 900;
+  text-shadow: 1rem;
+  font-size: 3rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.circleBio {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  border-style: double;
+  color: lightsalmon;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bioContainer {
+  display: flex;
+  justify-content: center;
+  border-top-style: hidden;
+  border-bottom-style: hidden;
+}
+
+.circuleImage {
+  background-image: url("../img/juan.jpg");
+  height: 10rem;
+  width: 10rem;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+}
+
+.circuleImage2 {
+  background-image: url("../img/andres.jpg");
+  height: 10rem;
+  width: 10rem;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+}
+
+.circuleImage3 {
+  background-image: url("../img/tiki.jpg");
+  height: 10rem;
+  width: 10rem;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+}

@@ -1,0 +1,66 @@
+
+
+dentro de tu proyecto, carpeta public y ahi van el index, el css, y la carpeta img.
+
+------------
+
+
+Para subir al server y comprimir el css en min.css
+
+pego en el package.json  --->  
+    
+    "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss src/scss/style.scss public/css/style.css",
+    "build-css-compressed": "node-sass --include-path scss --output-style compressed scss/style.scss public/css/style.min.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "watch-css-comp": "nodemon -e scss -x \"npm run build-css-compressed\""
+   
+  },
+y el en index le cambio en href del css style.min.css
+
+despues corro en consola: npm run watch-css-comp
+
+
+---------
+explicativo node
+
+https://github.com/sass/node-sass
+
+
+----------
+
+para comprimir las imagenes instalo un modulo o www.tinyjpg.com
+
+-------
+
+https://prepros.io/
+
+
+------
+
+comprar dominio
+
+https://ar.godaddy.com/offers/domains/godaddy-b?isc=goflar30&countryview=1&currencytype=ars&slid=&pgrid=26441481420&ptaid=kwd-88659201&mkwid=sJ4pPecVd_pcrid_262638401016_pkw_godaddy_pmt_e_pdv_c_&gclid=Cj0KCQjw28_XBRDhARIsAEk21Fh6H1ZACwzt-mT8IH8sxvcvdFVMqKorAZG56ukhq6enVszVKwp5YPkaArvkEALw_wcB
+
+-----
+
+https://ar.000webhost.com/  server gratis
+
+-----
+
+install filezilla desde consola
+
+ sudo apt-get install filezilla
+
+sudo apt-get update && sudo apt-get upgrade && sudo apt-get install -f && sudo apt-get install filezilla filezilla-common libfilezilla0 
+
+------
+
+todo lo que va por fuera de la carpeta public va en carpeta src
+
+------
+
+css transform property
+https://www.w3schools.com/cssref/css3_pr_transform.asp
+
