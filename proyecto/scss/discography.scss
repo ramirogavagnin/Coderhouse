@@ -1,0 +1,215 @@
+#discography {
+    background-color: rgba(0, 0, 0, 0.09);
+    padding-top: 6rem;
+    padding-bottom: 16rem;
+    margin-top: 6rem;
+}
+.discography{
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    border-style: double;
+    color: lightsalmon;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discographyTextContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.discographyTitle{
+    text-transform: capitalize;
+    color: orange;
+    font-weight: 900;
+    text-shadow: 1rem;
+    font-size: 3.5rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.discoContainer {
+    top:0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.95);
+    height: 42rem;
+    margin: 5rem 2rem;
+}
+
+.trino {
+    background-image: url("../img/trino.jpeg");
+    background-size: cover;
+    background-position: center center;
+    height: 35rem;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.hermanos {
+    background-image: url("../img/hermanos.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 35rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ventanas {
+    background-image: url("../img/ventanas.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 35rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.lamusica {
+    background-image: url("../img/lamusica.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 35rem;
+    width: 100%;
+    overflow: hidden;
+}
+.avenido {
+    background-image: url("../img/avenido.png");
+    background-size: cover;
+    background-position: center center;
+    height: 35rem;
+    width: 100%;
+    overflow: hidden;
+}
+.acaseca {
+    background-image: url("../img/acaseca.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 35rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+.linkSongs {
+    background-color: rgba(0, 0, 0, 0.80);
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    width: 35rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 29rem;
+}
+
+.discoInfo {
+padding: 2rem;
+}
+
+.fa-shopping-bag {
+    font-size: 3rem;
+    color: white;
+    border-radius: 50%;
+    margin: 0 2rem 0 2rem;
+}
+
+.fa-spotify {
+    font-size: 3rem;
+    color: white;
+    border-radius: 50%;
+    margin: 0 2rem 0 2rem;
+}
+
+.fa-itunes {
+    font-size: 3rem;
+    color: white;
+    border-radius: 50%;
+    margin: 0 2rem 0 2rem;
+}
+
+.imgHexaConteiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+padding-top: 5rem;
+}
+
+.hexagon {
+    position: relative;
+    width: 300px; 
+    height: 173.21px;
+    margin: 86.60px 0;
+    background-image: url('../img/lostres.jpg');
+    background-size: auto 346.4102px;
+    background-position: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  }
+  
+  .hexTop,
+  .hexBottom {
+    position: absolute;
+    z-index: 1;
+    width: 212.13px;
+    height: 212.13px;
+    overflow: hidden;
+    -webkit-transform: scaleY(0.5774) rotate(-45deg);
+    -ms-transform: scaleY(0.5774) rotate(-45deg);
+    transform: scaleY(0.5774) rotate(-45deg);
+    background: inherit;
+    left: 43.93px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  }
+  
+  /*counter transform the bg image on the caps*/
+  .hexTop:after,
+  .hexBottom:after {
+    content: "";
+    position: absolute;
+    width: 300.0000px;
+    height: 173.20508075688775px;
+    -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+    -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+    transform:          rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+    -webkit-transform-origin: 0 0;
+    -ms-transform-origin: 0 0;
+    transform-origin: 0 0;
+    background: inherit;
+  }
+  
+  .hexTop {
+    top: -106.0660px;
+  }
+  
+  .hexTop:after {
+    background-position: center top;
+  }
+  
+  .hexBottom {
+    bottom: -106.0660px;
+  }
+  
+  .hexBottom:after {
+    background-position: center bottom;
+  }
+  
+  .hexagon:after {
+    content: "";
+    position: absolute;
+    top: 0.0000px;
+    left: 0;
+    width: 300.0000px;
+    height: 173.2051px;
+    z-index: 2;
+    background: inherit;
+  }
+
+  .arrow {
+    font-size: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    color: rgba(0, 0, 0, 0.8);
+  }

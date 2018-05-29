@@ -1,0 +1,45 @@
+.item {
+  height: 8rem;
+  width: 100%;
+  background-color: black;
+  text-align: center left;
+  padding: 1rem 1rem;
+  border-top-style: solid;
+  color: gray;
+}
+
+#home {
+  height: 8rem;
+  width: 100%;
+}
+
+.textWhite {
+  color: white;
+}
+
+#ticketButton {
+  height: 3rem;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.slideBar {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+}
+
+.slideBar2 {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+  height: 100%;
+  width: 100%;
+  z-index: 10000;
+}
+
+.slideBar3 {
+  display: grid;
+  grid-template-columns: 3fr 3fr;
+}
+/*# sourceMappingURL=home.css.map */

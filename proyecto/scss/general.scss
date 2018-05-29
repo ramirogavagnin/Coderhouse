@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 14rem;
+    font-family: sans-serif;
+    font-size: 62.5%;
+}
+
+a
+{
+  text-decoration: none;
+  color: #232323;
+  
+  transition: color 0.3s ease;
+}
+
+a:hover
+{
+  color: tomato;
+}
+
+.textWhite {
+
+    color: white;
+}
+
+.redText {
+    color: red;
+
+}
+
+.text-capitalize {
+
+ text-transform: capitalize;   
+}
+
+.uppercase {
+    text-transform: uppercase;
+}

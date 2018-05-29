@@ -1,0 +1,639 @@
+.slideBarContainer{
+    display: flex;
+    background-color: black;
+
+
+}
+
+
+ .wrapper3{
+    display: none;
+
+
+ }
+ .wrapper4{
+   display: none;
+ }
+
+     .item {
+
+    height: 8rem;
+    width: 100%;
+    background-color: black;
+   border-top-style: solid; color: gray;
+  
+  
+   
+}
+
+#home{
+    height: 8rem;
+    width: 100%;
+   
+    
+}
+
+
+
+#ticketButton1 {
+
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    justify-content: right;
+    cursor: pointer;
+    
+}
+
+#ticketButton2 {
+
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    justify-content: right;
+    cursor: pointer;
+    
+}
+
+#ticketButton3 {
+
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    justify-content: right;
+    cursor: pointer;
+    
+}
+
+#ticketButton4 {
+
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    justify-content: right;
+    cursor: pointer;
+    
+}
+
+.slideBar {
+
+    display: flex;
+  justify-content: space-around;
+  position: absolute;
+    animation-name: opacity1;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    
+   
+}
+
+.slideBar2 {
+
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    animation-name: opacity2;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+
+}
+
+.slideBar3 {
+
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    animation-name: opacity3;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    
+    
+}
+
+.slideBar4 {
+
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    animation-name: opacity4;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    
+}
+
+.date {
+    display: flex;
+    flex-direction:column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@keyframes opacity1 {
+
+    0% {
+        opacity: 1;
+    }
+
+    20% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+    }
+    95%{
+        opacity: 1;
+    }
+}
+
+@keyframes opacity2 {
+
+    0% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes opacity3 {
+
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+
+    
+    90%{
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes opacity4 {
+
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+
+    
+    80%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+
+#trino {
+    background-color: rgba(0, 0, 0, 0.09);
+    padding-top: 7rem;
+    padding-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+    flex-direction: column;
+}
+
+.trinoHome {
+    background-image: url('../img/trino.jpeg');
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    height:40rem;
+    width: 40rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.fa-play{
+    font-size: 2rem;
+ }
+
+
+ /* =======MEDIA QUERYES======= */
+
+/* ==TABLET== */
+
+@media (min-width: 48em){
+    .slideBarContainer{
+        display: block;
+    
+    
+    }
+    
+    .wrapper {
+    
+        display: flex;
+        position: absolute;
+        width: 100%;
+        
+    }
+    
+    .wrapper2{
+      
+        display: flex;
+        opacity: 0;
+        animation-name: wrapper2;
+        animation-iteration-count: infinite;
+        animation-duration: 10s;
+         }
+    
+    
+    
+     .wrapper3{
+       display: none;
+    
+    
+     }
+     .wrapper4{
+        display: none;
+     }
+     
+     .slideBar {
+
+        
+      position: relative;
+        animation-name: none;
+       
+        
+       
+    }
+    
+    .slideBar2 {
+    
+        position: relative;
+        animation-name: none;
+    
+    }
+    
+    .slideBar3 {
+    
+        position: relative;
+        animation-name: none;
+        
+        
+    }
+    
+    .slideBar4 {
+    
+        position: relative;
+        animation-name: none;
+        
+    }
+
+    @keyframes wrapper2 {
+
+        0% {
+            opacity: 0;
+        }
+    
+        20% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        75%{
+            opacity: 1;
+        }
+        95%{
+            opacity: 0;
+        }
+    }
+
+}
+
+/* ====LAPTOP 1024=== */
+
+
+@media (min-width: 64em){
+    .slideBarContainer{
+        display: block;
+    
+    
+    }
+    .wrapper {
+
+        display: none;
+        
+      
+         
+        
+     }
+     
+     .wrapper2{
+       
+         display: none;
+       
+          }
+     
+     
+     
+      .wrapper3{
+         display: flex;
+         position: absolute;
+         width: 100%;
+     
+     
+      }
+      .wrapper4{
+         display: flex;
+         opacity: 0;
+         width: 100%;
+         animation-name: wrapper4;
+         animation-iteration-count: infinite;
+         animation-duration: 10s;
+      }
+
+
+      .slideBar {
+
+        
+        position: relative;
+          animation-name: none;
+         
+          
+         
+      }
+      
+      .slideBar2 {
+      
+          position: relative;
+          animation-name: none;
+      
+      }
+      
+      .slideBar3 {
+      
+          position: relative;
+          animation-name: none;
+          
+          
+      }
+      
+      .slideBar4 {
+      
+          position: relative;
+          animation-name: none;
+          
+      }
+
+      @keyframes wrapper4 {
+
+        0% {
+            opacity: 0;
+        }
+    
+        20% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        75%{
+            opacity: 1;
+        }
+        95%{
+            opacity: 0;
+        }
+    }
+
+}
+
+/* ====LAPTOP 1440=== */
+
+
+@media (min-width: 90em){
+    .slideBarContainer{
+        display: block;
+    
+    
+    }
+    .wrapper {
+
+        display: none;
+        
+      
+         
+        
+     }
+     
+     .wrapper2{
+       
+         display: none;
+       
+          }
+     
+     
+     
+      .wrapper3{
+         display: flex;
+         position: absolute;
+         width: 100%;
+     
+     
+      }
+      .wrapper4{
+        display: flex;
+        opacity: 0;
+        width: 100%;
+        animation-name: wrapper4;
+        animation-iteration-count: infinite;
+        animation-duration: 10s;
+     }
+
+      .slideBar {
+
+        
+        position: relative;
+          animation-name: none;
+         
+          
+         
+      }
+      
+      .slideBar2 {
+      
+          position: relative;
+          animation-name: none;
+      
+      }
+      
+      .slideBar3 {
+      
+          position: relative;
+          animation-name: none;
+          
+          
+      }
+      
+      .slideBar4 {
+      
+          position: relative;
+          animation-name: none;
+          
+      }
+
+      @keyframes wrapper4 {
+
+        0% {
+            opacity: 0;
+        }
+    
+        20% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        75%{
+            opacity: 1;
+        }
+        95%{
+            opacity: 0;
+        }
+    }
+
+}
+
+
+
+/* ====LAPTOP 4k=== */
+
+
+@media (min-width: 256em){
+  
+    .slideBarContainer{
+        display: block;
+    
+    
+    }
+    .wrapper {
+
+        display: none;
+        
+      
+         
+        
+     }
+     
+     .wrapper2{
+       
+         display: none;
+       
+          }
+     
+     
+     
+      .wrapper3{
+         display: flex;
+         position: absolute;
+         width: 100%;
+     
+     
+      }
+   
+      .wrapper4{
+        display: flex;
+        opacity: 0;
+        width: 100%;
+        animation-name: wrapper4;
+        animation-iteration-count: infinite;
+        animation-duration: 10s;
+     }
+
+      .slideBar {
+
+        
+        position: relative;
+          animation-name: none;
+         
+          
+         
+      }
+      
+      .slideBar2 {
+      
+          position: relative;
+          animation-name: none;
+      
+      }
+      
+      .slideBar3 {
+      
+          position: relative;
+          animation-name: none;
+          
+          
+      }
+      
+      .slideBar4 {
+      
+          position: relative;
+          animation-name: none;
+          
+      }
+
+      @keyframes wrapper4 {
+
+        0% {
+            opacity: 0;
+        }
+    
+        20% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        75%{
+            opacity: 1;
+        }
+        95%{
+            opacity: 0;
+        }
+    }
+    
+
+}

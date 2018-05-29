@@ -90,4 +90,17 @@ y para cerrar guardo en visual y en la consola: ctrl C
  "watch-css": "nodemon -e scss -x \"npm run build-css\""
 
 
+--------------------
+ "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss public/css/style.css",
+    "build-css-compressed": "node-sass  --output-style compressed --include-path scss scss/style.scss public/css/style.min.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+    "watch-css-comp": "nodemon -e scss -x \"npm run build-css-compressed\""
+  },
+
+
+
+npm run watch-css-comp ---> para el min.css
+
  

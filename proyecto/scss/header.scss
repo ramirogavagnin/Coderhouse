@@ -1,0 +1,164 @@
+header {
+    height: 17rem;
+    width: 100%;
+    background-image: url('../img/header.png');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    padding: 1rem 1rem;
+}
+
+
+
+.headerCircle {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    border-style: double;
+    color: $border-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.textHeader {
+    color: $title-color;
+    font-weight: 900;
+    text-shadow: 1rem;
+    font-size: 2rem;
+    font-family: $primary-font;
+}
+
+
+
+.navbar {
+    width: 0;
+    height: 0;
+    background-color: rgba(0,0,0,0.50);
+top: 0;
+left: 0;
+position: sticky;
+
+z-index: 10000;
+}
+
+.fa-bars{
+    font-size: 3rem;
+    color: rgba(0,0,0,0.85);
+    margin: 1rem;
+   
+
+}
+
+
+/* =======MEDIA QUERYES======= */
+
+/* ==TABLET== */
+
+@media (min-width: 48em){
+
+    header {
+        height: 28rem;
+     
+    }
+
+    .headerCircle {
+        height: 16rem;
+        width: 16rem;
+      margin: 2rem 1rem;
+    }
+    
+    .textHeader {
+       
+        font-size: 4rem;
+        
+    }
+
+}
+
+/* ====LAPTOP 1024=== */
+
+
+@media (min-width: 64em){
+
+    header {
+        height: 36rem;
+     
+    }
+
+    .headerCircle {
+        height: 20rem;
+        width: 20rem;
+      margin: 3rem 2.5rem;
+    }
+    
+    .textHeader {
+       
+        font-size: 4.5rem;
+        
+    }
+
+}
+
+/* ====LAPTOP 1440=== */
+
+
+@media (min-width: 90em){
+
+    header {
+        height: 50rem;
+     
+    }
+
+    .headerCircle {
+        height: 27em;
+        width: 27rem;
+      margin: 6.5rem 4.5rem;
+    }
+    
+    .textHeader {
+       
+        font-size: 6.5rem;
+        
+    }
+
+}
+
+
+
+/* ====LAPTOP 4k=== */
+
+
+@media (min-width: 256em){
+
+    header {
+        height: 145rem;
+     
+    }
+
+    .headerCircle {
+        height: 90em;
+        width: 90rem;
+      margin: 12rem 9rem;
+    }
+    
+    .textHeader {
+       
+        font-size: 20rem;
+        
+    }
+
+    .fa-bars{
+        font-size: 15rem;
+        color: rgba(0,0,0,0.85);
+        margin: 8rem;
+       
+    
+    }
+    
+
+}

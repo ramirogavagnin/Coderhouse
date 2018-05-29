@@ -17,63 +17,28 @@
     <!-- =========HEADER======== -->
 
     <header>
+       
+    
+         <div class="headerTitle">
 
-        <nav role="navigation">
-            <div id="menuToggle">
-
-                <input type="checkbox" />
-                <span></span>
-                <span></span>
-                <span></span>
-
-
-                <ul id="menu">
-                    <a href="#trino">
-                        <li>Home</li>
-                    </a>
-                    <a href="#bio">
-                        <li>Bio</li>
-                    </a>
-                    <a href="#agenda">
-                        <li>Agenda</li>
-                    </a>
-                    <a href="#">
-                        <li>Contact</li>
-                    </a>
-                    <!-- <a href="https://erikterwan.com/" target="_blank">
-                        <li>Show me more</li>
-                    </a> -->
-                </ul>
-
-
-            </div>
-
-
-        </nav>
-        <div class="headerTitle">
-
-            <h1 class="text-capitalize">aca seca trío</h1>
+            <h1 class="headerText">aca seca trío</h1>
 
 
         </div>
-        <div class="headerLogo">
-
-
-            <img class="headerImg" src="./img/headerLogo.png" alt="">
-
-        </div>
+       
 
 
 
     </header>
 
+    
     <!-- =======HOME======== -->
 
 
     <section id="home">
 
         <div class="slideBarContainer">
-
+<div class="wrapper">
             <div class="item slideBar">
                 <div class="date">
                     <h2>
@@ -113,9 +78,8 @@
 
                 </div>
             </div>
-
-
-
+        </div>
+        <div class="wrapper2">
             <div class="item slideBar3">
 
                 <div class="date">
@@ -132,7 +96,7 @@
                     <input type="button" name="ticket" id="ticketButton3" value="Tickets + info">
 
                 </div>
-
+            </div>
 
             </div>
 
@@ -364,6 +328,7 @@
         </div>
 
         <!-- =====HEXAGON IMAGE===== -->
+        
         <div class="imgHexaConteiner">
             <div class="hexagon">
                 <div class="hexTop"></div>
@@ -374,6 +339,8 @@
 
     </section>
 
+
+    
     <!-- ===========AGENDA============ -->
 
     <section id="agenda">
@@ -460,6 +427,13 @@
 
     </section>
 
+
+
+
+    <!-- ==========CONTACTO============ -->
+
+
+
     <section id="contacto">
         <div class="contactContainer">
 
@@ -516,6 +490,12 @@
         </div>
 
     </section>
+
+
+
+    <!-- =========FOOTER=========== -->
+
+
     <footer id="footer">
         
             <div class="socialFooter">
@@ -551,17 +531,9 @@
 
     </footer>
 
-
-    <script src="../node_modules/jquery/dist/jquery.js"></script>
-    <script src="./js/index.js"></script>
+  
+  
 </body>
 
 </html>
 
-<script>
-    $(document).ready(function () {
-        $('body').find(
-            'img[src$="https://cdn.rawgit.com/000webhost/logo/e9bd13f7/footer-powered-by-000webhost-white2.png"]'
-        ).remove();
-    });
-</script>

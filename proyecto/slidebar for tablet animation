@@ -1,0 +1,131 @@
+
+.slideBarContainer{
+   /*  display: flex;
+ */
+
+}
+
+.wrapper {
+   
+    display: flex;
+    position: absolute;
+    width: 100%;
+    
+   
+}
+
+.wrapper2{
+  
+    
+    display: flex;
+    opacity: 0;
+   
+     }
+
+
+     .item {
+
+    height: 8rem;
+    width: 100%;
+    background-color: black;
+   border-top-style: solid; color: gray;
+  
+  
+   
+}
+
+#home{
+    height: 8rem;
+    width: 100%;
+   
+    
+}
+
+
+
+#ticketButton1 {
+
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    justify-content: right;
+    cursor: pointer;
+    
+}
+
+#ticketButton2 {
+
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    justify-content: right;
+    cursor: pointer;
+    
+}
+
+#ticketButton3 {
+
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    justify-content: right;
+    cursor: pointer;
+    
+}
+
+#ticketButton4 {
+
+    height: 3rem;
+    width: 10rem;
+    display: flex;
+    justify-content: right;
+    cursor: pointer;
+    
+}
+
+.slideBar {
+
+    display: flex;
+  justify-content: space-around;
+  position: relative;
+    animation-name: opacity1;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    
+   
+}
+
+.slideBar2 {
+
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    animation-name: opacity2;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+
+}
+
+.slideBar3 {
+
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    animation-name: opacity3;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    
+    
+}
+
+.slideBar4 {
+
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    animation-name: opacity4;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    
+}
+

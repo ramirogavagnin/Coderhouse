@@ -1,0 +1,87 @@
+
+* .slideBarContainer{
+    display: flex;
+
+
+} */
+
+.wrapper {
+
+   display: none;
+   
+   /*  display: flex;
+    position: absolute;
+    width: 100%; */
+    
+   
+}
+
+.wrapper2{
+  
+    display: none;
+    /* display: flex;
+    opacity: 0;
+    */
+     }
+
+
+
+ .wrapper3{
+    display: flex;
+    position: absolute;
+    width: 100%;
+
+
+ }
+ .wrapper4{
+    display: flex;
+    opacity: 0;
+    width: 100%;
+ }
+
+
+.slideBar {
+
+    display: flex;
+  justify-content: space-around;
+  position: relative;
+    animation-name: opacity1;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    
+   
+}
+
+.slideBar2 {
+
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    animation-name: opacity2;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+
+}
+
+.slideBar3 {
+
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    animation-name: opacity3;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    
+    
+}
+
+.slideBar4 {
+
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    animation-name: opacity4;
+    animation-iteration-count: infinite;
+    animation-duration: 20s;
+    
+}

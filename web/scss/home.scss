@@ -1,5 +1,7 @@
 
+.slideBarContainer{
 
+}
 .item {
 
     height: 8rem;
@@ -160,7 +162,30 @@
 }
 
 
-   
+#trino {
+    background-color: rgba(0, 0, 0, 0.09);
+    padding-top: 7rem;
+    padding-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+}
+
+.trinoHome {
+    background-image: url('../img/trino.jpeg');
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    height: 30rem;
+    width: 30rem;
+    padding: 1rem 1rem;
+    
+}
+
+.fa-play{
+    font-size: 2rem;
+} 
     
     
 

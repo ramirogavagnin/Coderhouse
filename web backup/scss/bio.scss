@@ -1,0 +1,109 @@
+#bio {
+    padding-top: 6rem;
+}
+
+.bioText {
+    text-transform: capitalize;
+    color: $title-color;
+    font-weight: 900;
+    text-shadow: 1rem;
+    font-size: 3.5rem;
+    font-family: $font-title;
+}
+
+.circleBio {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 50%;
+    border-style: double;
+    color: $border-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bioContainer {
+    display: flex;
+    justify-content: center;
+    border-top-style: hidden;
+    border-bottom-style: hidden;
+}
+
+.artistImageContainer {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.titleImageText {
+    font-size: 2.5rem;
+    font-family: $primary-font;
+    font-weight: 700;
+}
+
+.imageText {
+    font-size: 1.5rem;
+    font-family: $primary-font;
+    font-weight: 500;
+}
+
+.img1 {
+    background-image: url("../img/juan.jpg");
+    height: 25rem;
+    width: 25rem;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.img2 {
+    background-image: url("../img/andres.jpg");
+    height: 25rem;
+    width: 25rem;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.img3 {
+    background-image: url("../img/tiki.jpg");
+    height: 25rem;
+    width: 25rem;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.imageHover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    border-radius: 50%;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s ease;
+}
+
+.circleImage:hover .imageHover {
+    opacity: 0.70;
+}
+
+.add {
+    font-size: 5rem;
+    color: white;
+    background-color: transparent;
+}
