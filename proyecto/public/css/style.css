@@ -132,43 +132,69 @@ header {
   display: none; }
 
 .item {
-  height: 8rem;
+  height: 5rem;
   width: 100%;
   background-color: black;
   border-top-style: solid;
+  color: gray;
+  border-bottom-style: solid;
+  color: gray;
+  border-left-style: groove;
+  color: gray;
+  border-right-style: groove;
   color: gray; }
 
 #home {
-  height: 8rem;
+  height: 5rem;
   width: 100%; }
 
-#ticketButton1 {
-  height: 3rem;
-  width: 10rem;
+.date {
   display: flex;
-  justify-content: right;
-  cursor: pointer; }
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem; }
+
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#ticketButton1 {
+  height: 2.5rem;
+  width: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.2rem; }
 
 #ticketButton2 {
-  height: 3rem;
-  width: 10rem;
+  height: 2.5rem;
+  width: 9rem;
   display: flex;
-  justify-content: right;
-  cursor: pointer; }
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.2rem; }
 
 #ticketButton3 {
-  height: 3rem;
-  width: 10rem;
+  height: 2.5rem;
+  width: 9rem;
   display: flex;
-  justify-content: right;
-  cursor: pointer; }
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.2rem; }
 
 #ticketButton4 {
-  height: 3rem;
-  width: 10rem;
+  height: 2.5rem;
+  width: 9rem;
   display: flex;
-  justify-content: right;
-  cursor: pointer; }
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 1.2rem; }
 
 .slideBar {
   display: flex;
@@ -201,17 +227,6 @@ header {
   animation-name: opacity4;
   animation-iteration-count: infinite;
   animation-duration: 20s; }
-
-.date {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; }
-
-.input {
-  display: flex;
-  justify-content: center;
-  align-items: center; }
 
 @keyframes opacity1 {
   0% {
@@ -277,14 +292,36 @@ header {
   overflow: hidden;
   background-size: cover;
   background-position: center center;
-  height: 40rem;
-  width: 40rem;
+  height: 35rem;
+  width: 35rem;
+  padding: 2rem 1rem; }
+
+.dateCircle {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  border-style: double;
+  color: white;
   display: flex;
   justify-content: center;
-  align-items: flex-end; }
+  align-items: center;
+  text-shadow: 2rem;
+  color: orange;
+  font-size: 0.9rem;
+  flex-direction: column; }
 
-.fa-play {
-  font-size: 2rem; }
+.trinoPlayer {
+  width: 35rem;
+  height: 8rem; }
+
+.line {
+  display: none; }
+
+.arrowTrino {
+  display: none; }
+
+.musicTrino {
+  display: none; }
 
 /* =======MEDIA QUERYES======= */
 /* ==TABLET== */
@@ -300,11 +337,33 @@ header {
     opacity: 0;
     animation-name: wrapper2;
     animation-iteration-count: infinite;
-    animation-duration: 10s; }
+    animation-duration: 12s; }
   .wrapper3 {
     display: none; }
   .wrapper4 {
     display: none; }
+  .item {
+    height: 6rem; }
+  #home {
+    height: 6rem; }
+  .date {
+    font-size: 0.92rem; }
+  #ticketButton1 {
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.3rem; }
+  #ticketButton2 {
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.3rem; }
+  #ticketButton3 {
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.3rem; }
+  #ticketButton4 {
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.3rem; }
   .slideBar {
     position: relative;
     animation-name: none; }
@@ -327,7 +386,27 @@ header {
     75% {
       opacity: 1; }
     95% {
-      opacity: 0; } } }
+      opacity: 0; } }
+  #trino {
+    padding-top: 14rem;
+    padding-bottom: 19rem; }
+  .trinoHome {
+    height: 50rem;
+    width: 50rem;
+    padding: 2.5rem 1.5rem; }
+  .dateCircle {
+    height: 11.5rem;
+    width: 11.5rem;
+    font-size: 1.1rem; }
+  .trinoPlayer {
+    width: 50rem;
+    height: 25rem; }
+  .line {
+    display: none; }
+  .arrowTrino {
+    display: none; }
+  .musicTrino {
+    display: none; } }
 
 /* ====LAPTOP 1024=== */
 @media (min-width: 64em) {
@@ -347,7 +426,29 @@ header {
     width: 100%;
     animation-name: wrapper4;
     animation-iteration-count: infinite;
-    animation-duration: 10s; }
+    animation-duration: 12s; }
+  .item {
+    height: 6.5rem; }
+  #home {
+    height: 6.5rem; }
+  .date {
+    font-size: 0.9rem; }
+  #ticketButton1 {
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.3rem; }
+  #ticketButton2 {
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.3rem; }
+  #ticketButton3 {
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.3rem; }
+  #ticketButton4 {
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.3rem; }
   .slideBar {
     position: relative;
     animation-name: none; }
@@ -370,7 +471,65 @@ header {
     75% {
       opacity: 1; }
     95% {
-      opacity: 0; } } }
+      opacity: 0; } }
+  #trino {
+    padding-top: 0rem;
+    padding-bottom: 10rem;
+    align-items: flex-start;
+    flex-direction: row; }
+  .trinoHome {
+    height: 45rem;
+    width: 45rem;
+    padding: 2.5rem 1.5rem;
+    border-top-style: groove;
+    color: rgba(0, 0, 0, 0.9);
+    margin-top: 20rem;
+    margin-right: 1.5rem; }
+  .dateCircle {
+    height: 11.5rem;
+    width: 11.5rem;
+    font-size: 1.1rem; }
+  .line {
+    display: block;
+    width: 0;
+    height: 135rem;
+    border-right-style: ridge;
+    color: rgba(0, 0, 0, 0.9);
+    margin: 8rem 2rem; }
+  .playerContainer {
+    margin-top: 25rem;
+    border-top-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+  .arrowTrino {
+    font-size: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+    color: rgba(0, 0, 0, 0.8); }
+  .musicTrino {
+    height: 35rem;
+    width: 35rem;
+    border-radius: 50%;
+    border-style: double;
+    color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .fa-music {
+    font-size: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.8); }
+  .trinoPlayer {
+    width: 45rem;
+    height: 45rem;
+    margin-left: 1.2rem; } }
 
 /* ====LAPTOP 1440=== */
 @media (min-width: 90em) {
@@ -390,7 +549,29 @@ header {
     width: 100%;
     animation-name: wrapper4;
     animation-iteration-count: infinite;
-    animation-duration: 10s; }
+    animation-duration: 12s; }
+  .item {
+    height: 7.5rem; }
+  #home {
+    height: 7.5rem; }
+  .date {
+    font-size: 1.1rem; }
+  #ticketButton1 {
+    height: 3.5rem;
+    width: 12rem;
+    font-size: 1.5rem; }
+  #ticketButton2 {
+    height: 3.5rem;
+    width: 12rem;
+    font-size: 1.5rem; }
+  #ticketButton3 {
+    height: 3.5rem;
+    width: 12rem;
+    font-size: 1.5rem; }
+  #ticketButton4 {
+    height: 3.5rem;
+    width: 12rem;
+    font-size: 1.5rem; }
   .slideBar {
     position: relative;
     animation-name: none; }
@@ -413,7 +594,67 @@ header {
     75% {
       opacity: 1; }
     95% {
-      opacity: 0; } } }
+      opacity: 0; } }
+  #trino {
+    padding-top: 6rem;
+    padding-bottom: 10rem;
+    align-items: flex-start;
+    flex-direction: row; }
+  .trinoHome {
+    height: 65rem;
+    width: 65rem;
+    padding: 2rem 1rem;
+    border-top-style: groove;
+    color: rgba(0, 0, 0, 0.9);
+    margin-top: 25rem;
+    margin-right: 1.5rem; }
+  .dateCircle {
+    height: 16rem;
+    width: 16rem;
+    font-size: 1.8rem; }
+  .line {
+    display: block;
+    width: 0;
+    height: 175rem;
+    border-right-style: ridge;
+    color: rgba(0, 0, 0, 0.9);
+    margin: 8rem 2rem; }
+  .playerContainer {
+    margin-top: 35rem;
+    border-top-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 2.5rem; }
+  .arrowTrino {
+    font-size: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem 0;
+    color: rgba(0, 0, 0, 0.8); }
+  .musicTrino {
+    height: 45rem;
+    width: 45rem;
+    border-radius: 50%;
+    border-style: double;
+    color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .fa-music {
+    font-size: 28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.8); }
+  .trinoPlayer {
+    width: 60rem;
+    height: 42rem;
+    margin-left: 1.2rem;
+    margin-top: 3rem; } }
 
 /* ====LAPTOP 4k=== */
 @media (min-width: 256em) {
@@ -433,7 +674,29 @@ header {
     width: 100%;
     animation-name: wrapper4;
     animation-iteration-count: infinite;
-    animation-duration: 10s; }
+    animation-duration: 12s; }
+  .item {
+    height: 20rem; }
+  #home {
+    height: 20rem; }
+  .date {
+    font-size: 3.5rem; }
+  #ticketButton1 {
+    height: 9rem;
+    width: 28rem;
+    font-size: 4rem; }
+  #ticketButton2 {
+    height: 9rem;
+    width: 28rem;
+    font-size: 4rem; }
+  #ticketButton3 {
+    height: 9rem;
+    width: 28rem;
+    font-size: 4rem; }
+  #ticketButton4 {
+    height: 9rem;
+    width: 28rem;
+    font-size: 4rem; }
   .slideBar {
     position: relative;
     animation-name: none; }
@@ -456,7 +719,67 @@ header {
     75% {
       opacity: 1; }
     95% {
-      opacity: 0; } } }
+      opacity: 0; } }
+  #trino {
+    padding-top: 30rem;
+    padding-bottom: 48rem;
+    align-items: flex-start;
+    flex-direction: row; }
+  .trinoHome {
+    height: 180rem;
+    width: 180rem;
+    padding: 7rem 4rem;
+    border-top-style: groove;
+    color: rgba(0, 0, 0, 0.9);
+    margin-top: 75rem;
+    margin-right: 18rem; }
+  .dateCircle {
+    height: 44rem;
+    width: 44rem;
+    font-size: 4.5rem; }
+  .line {
+    display: block;
+    width: 0;
+    height: 430rem;
+    border-right-style: ridge;
+    color: rgba(0, 0, 0, 0.9);
+    margin: 8rem 2rem; }
+  .playerContainer {
+    margin-top: 100rem;
+    border-top-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 17rem; }
+  .arrowTrino {
+    font-size: 50rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15rem 0;
+    color: rgba(0, 0, 0, 0.8); }
+  .musicTrino {
+    height: 150rem;
+    width: 150rem;
+    border-radius: 50%;
+    border-style: double;
+    color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .fa-music {
+    font-size: 90rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.8); }
+  .trinoPlayer {
+    width: 130rem;
+    height: 50rem;
+    margin-left: 1.2rem;
+    margin-top: 3rem; } }
 
 #bio {
   padding-top: 6rem; }
