@@ -473,18 +473,18 @@ header {
     95% {
       opacity: 0; } }
   #trino {
-    padding-top: 0rem;
+    padding-top: 2rem;
     padding-bottom: 10rem;
     align-items: flex-start;
     flex-direction: row; }
   .trinoHome {
     height: 45rem;
     width: 45rem;
-    padding: 2.5rem 1.5rem;
+    padding: 1rem 0.5rem;
     border-top-style: groove;
     color: rgba(0, 0, 0, 0.9);
-    margin-top: 20rem;
-    margin-right: 1.5rem; }
+    margin-top: 22rem;
+    margin-right: 9.5rem; }
   .dateCircle {
     height: 11.5rem;
     width: 11.5rem;
@@ -497,19 +497,20 @@ header {
     color: rgba(0, 0, 0, 0.9);
     margin: 8rem 2rem; }
   .playerContainer {
-    margin-top: 25rem;
+    margin-top: 27rem;
     border-top-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; }
+    flex-direction: column;
+    margin-left: 5.5rem; }
   .arrowTrino {
     font-size: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 4rem 0;
+    margin: 5rem 0;
     color: rgba(0, 0, 0, 0.8); }
   .musicTrino {
     height: 35rem;

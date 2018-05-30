@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,400,400i,500,500i,900,900i');
+/* GENERAL */
+
+* {
+    margin: 0;
+    box-sizing: border-box
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+}
+
+main {
+    padding: 4rem 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.60);
+    /*  font-size: 2rem; */
+}
+
+a:hover {
+    color: rgb(0, 0, 0, 0.15);
+    text-decoration: none;
+}
+
+
+/* HEADER */
+
+header {
+    height: 10rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.30);
+    position: relative;
+    top: 0;
+}
+
+
+.imgTop {
+    height: 10rem;
+    width: 10rem;
+    background-image: url('../img/header.png');
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+    
+    overflow: hidden;
+   
+}
+.imgTop {
+    height: 10rem;
+    width: 10rem;
+    background-image: url('../img/header.png');
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+    
+    overflow: hidden;
+   
+}
+.imgTop {
+    height: 10rem;
+    width: 10rem;
+    background-image: url('../img/header.png');
+    background-size: cover;
+    background-position: center center;
+    border-radius: 50%;
+    
+    overflow: hidden;
+   
+}
+.imgTop{
+ 
+    width: 33.3%;
+    float: left;
+}
+
+.cleaner{
+    clear: both;
+} 
+nav {
+    position: sticky;
+    top: 0;
+    background-color:slategray;
+    color: white;
+    height: 7em;
+    
+}
+ 
+.mainNav {
+ 
+    margin-left: 50%;
+    
+
+}
+
+.mainNav li {
+    list-style-type: none;
+    font-size: 3.2rem;
+    margin: 1rem;
+    display: inline-block;
+    cursor: pointer;    
+}
+
+.secondaryNav {
+    margin: 2.5rem 0rem;
+    padding: 0.2rem;
+    position: absolute;
+background-color: white;
+width: 20rem;
+color: black;
+display: none;
+cursor: pointer;
+
+}
+
+li:hover .secondaryNav {
+display: block;
+color:black;
+}
+.cleaner {
+    clear: both;
+} 
+
+
+/* MAIN */
+
+
+.column {
+    width: 33.3%;
+    float: left;
+    margin-top: 2rem -(33.3%);
+    text-align: center;
+    
+}
+
+.cleaner {
+    clear: both;
+}
+
+h1 {
+    font-size: 4rem;
+    
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.7rem;
+}
+
+
+.circleAndres{
+    width: 25rem;
+    height: 25rem;
+overflow: hidden;
+    border-radius: 50%;
+   transition: transform ease 1s;
+   background-image: url('../img/andres2.jpg');
+   background-position: top left;
+   background-size: cover;
+   margin: 7.5rem 1rem 1.5rem 7.9rem;
+}
+
+.circleAndres:hover{
+transform: scale(1.1);
+transition: 0.5seg;
+
+}
+
+
+
+.circleJuan{
+    width: 25rem;
+    height: 25rem;
+  overflow: hidden;
+    border-radius: 50%;
+    background-image: url('../img/juan.jpg');
+    background-position: center right;
+    background-size: cover;
+    margin: 2.5rem 1rem 1.5rem 7.9rem;
+    object-position: center center;
+    transition: transform ease 1s;
+}
+
+.circleJuan:hover{
+    transform: scale(1.1);
+    transition: 0.5seg;
+}
+
+.circleTiki{
+    width: 25rem;
+    height: 25rem;
+        border-radius: 50%;
+    overflow: hidden;
+    background-image: url('../img/tiki2.jpg');
+    background-position: center center;
+    background-size: cover;
+    margin: 10rem 1rem 1.5rem 7.9rem;
+    transition: transform ease 1s;
+    
+}
+.circleTiki:hover{
+    transform: scale(1.1);
+    transition: 0.5seg;
+}
+
+
+/* TABLE */
+img {
+    height: 100%;
+    width: 100%;
+}
+.imageTable{
+    height: 20rem;
+    width: 20rem;
+}
+
+/* FOOTER */
+
+.footer-text {
+    font-size: 1.8rem;
+}
+

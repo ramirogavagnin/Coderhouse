@@ -625,7 +625,7 @@ display: none;
     }
     #trino {
        
-        padding-top: 0rem;
+        padding-top: 2rem;
         padding-bottom: 10rem;
        align-items: flex-start;
         flex-direction: row;
@@ -635,10 +635,10 @@ display: none;
        
         height:45rem;
         width: 45rem;
-        padding: 2.5rem 1.5rem;
+        padding: 1rem 0.5rem;
         border-top-style: groove; color: rgba(0, 0, 0, 0.90);
-       margin-top: 20rem;
-       margin-right: 1.5rem;
+       margin-top: 22rem;
+       margin-right: 9.5rem;
     }
     
 
@@ -661,13 +661,13 @@ display: none;
     }
 
     .playerContainer{
-        margin-top: 25rem;
+        margin-top: 27rem;
         border-top-style: none;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-
+margin-left: 5.5rem;
 
     }
 
@@ -677,7 +677,7 @@ display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 4rem 0;
+    margin: 5rem 0;
     color: rgba(0, 0, 0, 0.8);
     }
 
