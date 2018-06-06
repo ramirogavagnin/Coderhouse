@@ -957,7 +957,7 @@ display: flex;
 /* ====LAPTOP 4k=== */
 
 
-@media (min-width: 256em){
+@media (min-width: 160em){
   
     .slideBarContainer{
         display: block;
@@ -1002,12 +1002,12 @@ display: flex;
 
      .item {
 
-        height: 20rem;
+        height: 12rem;
     
     }
     
     #home{
-        height: 20rem;
+        height: 12rem;
     
     }
 
@@ -1016,40 +1016,38 @@ display: flex;
     
     .date {
   
-        font-size: 3.5rem;
+        font-size: 2rem;
     }
      
     
     #ticketButton1 {
 
-        height: 9rem;
-        width: 28rem;
-        font-size: 4rem;
+        height: 7rem;
+        width: 20rem;
+        font-size: 2.5rem;
         
     }
     
     #ticketButton2 {
        
-        height: 9rem;
-        width: 28rem;
-        font-size: 4rem;
-        
+        height: 7rem;
+        width: 20rem;
+        font-size: 2.5rem;
         
     }
     
     #ticketButton3 {
         
-        height: 9rem;
-        width: 28rem;
-        font-size: 4rem;
+        height: 7rem;
+        width: 20rem;
+        font-size: 2.5rem;
         
     }
     
     #ticketButton4 {
-       
-        height: 9rem;
-        width: 28rem;
-        font-size: 4rem;
+        height: 7rem;
+        width: 20rem;
+        font-size: 2.5rem;
         
         
     }
@@ -1108,43 +1106,43 @@ display: flex;
     }
     #trino {
        
-        padding-top: 30rem;
-        padding-bottom: 48rem;
+        padding-top: 4rem;
+        padding-bottom: 6rem;
        align-items: flex-start;
         flex-direction: row;
     }
     
     .trinoHome {
        
-        height:180rem;
-        width: 180rem;
-        padding: 7rem 4rem;
+        height:90rem;
+        width: 90rem;
+      
         border-top-style: groove; color: rgba(0, 0, 0, 0.90);
-       margin-top: 75rem;
+       margin-top: 35rem;
        margin-right: 18rem;
     }
     
 
     
     .dateCircle{
-        height: 44rem;
-        width: 44rem;
-        font-size: 4.5rem;
-       
+        height: 22rem;
+        width: 22rem;
+        font-size: 2.5rem;
+       margin: 3rem 0 0 1rem;
     
     }
 
     .line{
         display: block;
         width: 0;
-        height: 430rem;
+        height: 270rem;
         border-right-style: ridge; color: rgba(0, 0, 0, 0.90); 
-        margin: 8rem 2rem;
+       /*  margin: 8rem 2rem; */
        
     }
 
     .playerContainer{
-        margin-top: 100rem;
+        margin-top: 35rem;
         border-top-style: none;
         display: flex;
         align-items: center;
@@ -1156,7 +1154,7 @@ display: flex;
     }
 
     .arrowTrino{
-        font-size: 50rem;
+        font-size: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1166,8 +1164,8 @@ display: flex;
     }
 
     .musicTrino{
-height: 150rem;
-width: 150rem;
+height: 90rem;
+width: 90rem;
 border-radius: 50%;
 border-style: double;
 color:  rgba(0, 0, 0, 0.10);
@@ -1180,7 +1178,7 @@ display: flex;
     }  
 
     .fa-music{
-        font-size: 90rem;
+        font-size: 50rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1190,7 +1188,7 @@ display: flex;
     }
 
     .trinoPlayer{
-    width: 130rem;
+    width: 90rem;
     height: 50rem;
     margin-left: 1.2rem;
     margin-top: 3rem;

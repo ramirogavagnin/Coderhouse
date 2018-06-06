@@ -133,29 +133,29 @@ z-index: 10000;
 /* ====LAPTOP 4k=== */
 
 
-@media (min-width: 256em){
+@media (min-width: 160em){
 
     header {
-        height: 145rem;
+        height: 90rem;
      
     }
 
     .headerCircle {
-        height: 90em;
-        width: 90rem;
-      margin: 12rem 9rem;
+        height: 55em;
+        width: 55rem;
+      margin: 8rem 6rem;
     }
     
     .textHeader {
        
-        font-size: 20rem;
+        font-size: 14rem;
         
     }
 
     .fa-bars{
-        font-size: 15rem;
+        font-size: 8rem;
         color: rgba(0,0,0,0.85);
-        margin: 8rem;
+        margin: 5rem;
        
     
     }
