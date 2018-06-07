@@ -14,8 +14,8 @@ header {
 
 
 .headerCircle {
-    height: 9rem;
-    width: 9rem;
+    height: 10rem;
+    width: 10rem;
     border-radius: 50%;
     border-style: double;
     color: $border-color;
@@ -23,6 +23,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-left: 0.5rem;
 }
 
 .textHeader {
@@ -43,17 +44,63 @@ top: 0;
 left: 0;
 position: sticky;
 
-z-index: 10000;
+z-index: 2000;
+}
+
+.fa-times{
+    font-size: 3.5rem;
+    color: rgba(0,0,0,0.85);
+    margin: 1rem;
+    position: absolute;
+  
+   
 }
 
 .fa-bars{
     font-size: 3rem;
     color: rgba(0,0,0,0.85);
     margin: 1rem;
+    position: relative;
+
    
+}
+
+
+
+#toggleMenu{
+height: 1000vh;
+width: 1000vh;
+background-color: rgba(0,0,0,0.50);
+display: none;
+left: 0;
+top:0;
+position: absolute;
 
 }
 
+#menuContainer{
+    height: 1000vh;
+    width: 35rem;
+    background-color: whitesmoke;
+    z-index: 10000;
+    
+}
+
+#menu {
+ 
+    list-style: none;
+    font-size: 2.5rem;
+    font-style: $primary-font;
+    /* padding: 6rem 6rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
+}
+li{
+    margin: 1.5rem 0;
+}
 
 /* =======MEDIA QUERYES======= */
 

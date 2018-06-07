@@ -78,7 +78,7 @@
 }
 
 .imageHover {
-    display: flex;
+/*     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -87,7 +87,8 @@
     border-radius: 50%;
     overflow: hidden;
     opacity: 0;
-    transition: 0.8s ease;
+    transition: 0.8s ease; */
+    display: none;
 }
 
 .circleImage:hover .imageHover {
