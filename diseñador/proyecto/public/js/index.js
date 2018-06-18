@@ -7,12 +7,13 @@ var toggleButtonOff = $('#toggleOff')
 
     var toggleMenu = $('#toggleMenu')
     toggleButton.click(function(){
-        toggleMenu.toggle(400) 
+        toggleMenu.toggle(200) 
         
     })
     toggleButtonOff.click(function(){
-        toggleMenu.toggle(500) 
+        toggleMenu.toggle(200) 
         
     })
+
 
 })

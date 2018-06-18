@@ -1,5 +1,5 @@
 header {
-    height: 17rem;
+    height: 12rem;
     width: 100%;
     background-image: url('../img/header.png');
     background-position: center top;
@@ -8,14 +8,14 @@ header {
     display: flex;
     align-items: flex-end;
     justify-content: left;
-    padding: 1rem 1rem;
+    
 }
 
 
 
 .headerCircle {
-    height: 10rem;
-    width: 10rem;
+    height: 7rem;
+    width: 7rem;
     border-radius: 50%;
     border-style: double;
     color: $border-color;
@@ -23,21 +23,21 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 0.5rem;
+    margin: 0.5rem 0.8rem;
 }
 
 .textHeader {
     color: $title-color;
     font-weight: 900;
     text-shadow: 1rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: $primary-font;
 }
 
 
 
 .navbar {
-    width: 0;
+    width: 100%;
     height: 0;
     background-color: rgba(0,0,0,0.50);
 top: 0;
@@ -48,7 +48,7 @@ z-index: 2000;
 }
 
 .fa-times{
-    font-size: 3.5rem;
+    font-size: 3rem;
     color: rgba(0,0,0,0.85);
     margin: 1rem;
     position: absolute;
@@ -57,7 +57,7 @@ z-index: 2000;
 }
 
 .fa-bars{
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: rgba(0,0,0,0.85);
     margin: 1rem;
     position: relative;
@@ -69,7 +69,7 @@ z-index: 2000;
 
 #toggleMenu{
 height: 1000vh;
-width: 1000vh;
+width: 100%;
 background-color: rgba(0,0,0,0.50);
 display: none;
 left: 0;
@@ -80,7 +80,7 @@ position: absolute;
 
 #menuContainer{
     height: 1000vh;
-    width: 35rem;
+    width: 24rem;
     background-color: whitesmoke;
     z-index: 10000;
     
@@ -89,9 +89,8 @@ position: absolute;
 #menu {
  
     list-style: none;
-    font-size: 2.5rem;
+    font-size: 1rem;
     font-style: $primary-font;
-    /* padding: 6rem 6rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,13 +99,81 @@ position: absolute;
 }
 li{
     margin: 1.5rem 0;
+    font-size: 2rem;
+}
+
+.menuText{
+
+    font-size: 2.5rem;
 }
 
 /* =======MEDIA QUERYES======= */
 
+
+// =====Phone 425px =======
+
+@media (min-width: 425px) { 
+
+header {
+    height: 17rem;
+    padding: 1rem 1rem;
+}
+
+
+
+.headerCircle {
+    height: 10rem;
+    width: 10rem;
+    margin-left: 0.5rem;
+}
+
+.textHeader {
+   
+    font-size: 2rem;
+    
+}
+
+
+.fa-times{
+    font-size: 3.5rem;
+ 
+  
+   
+}
+
+.fa-bars{
+    font-size: 3rem;
+    
+}
+
+
+
+#menuContainer{
+  
+    width: 33rem;
+  
+}
+
+#menu {
+ 
+    font-size: 1rem;
+   
+}
+li{
+    margin: 1.5rem 0;
+    font-size: 2.5rem;
+}
+
+.menuText{
+
+    font-size: 3rem;
+}
+
+}
+
 /* ==TABLET== */
 
-@media (min-width: 48em){
+@media (min-width: 768px){
 
     header {
         height: 28rem;
@@ -130,7 +197,7 @@ li{
 /* ====LAPTOP 1024=== */
 
 
-@media (min-width: 64em){
+@media (min-width: 1024px){
 
     header {
         height: 36rem;
@@ -154,7 +221,7 @@ li{
 /* ====LAPTOP 1440=== */
 
 
-@media (min-width: 90em){
+@media (min-width: 1440px){
 
     header {
         height: 50rem;
@@ -180,7 +247,7 @@ li{
 /* ====LAPTOP 4k=== */
 
 
-@media (min-width: 160em){
+@media (min-width: 2560px){
 
     header {
         height: 90rem;
