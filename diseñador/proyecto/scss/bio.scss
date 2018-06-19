@@ -1,6 +1,6 @@
 #bio {
     padding-top: 6rem;
-   
+    padding-bottom: 2rem;
 }
 
 .bioText {
@@ -28,19 +28,25 @@
     justify-content: center;
     border-top-style: hidden;
     border-bottom-style: hidden;
+   
+    
 }
 
-.artistImageContainer {
+.artistImageWrapper {
     text-align: center;
+
+ }
     .circleImage {
         margin-top: 6rem;
+     
+        
     }
-}
+
 
 .img1 {
     background-image: url('../img/juan.jpg');
-    height: 25rem;
-    width: 25rem;
+    height: 23rem;
+    width: 23rem;
     background-size: cover;
     background-position: center center;
     border-radius: 50%;
@@ -48,13 +54,13 @@
     margin-right: auto;
     margin-top: 3rem;
     margin-bottom: 3rem;
-   
+    transition: transform 400ms ease;
 }
 
 .img2 {
     background-image: url('../img/andres.jpg');
-    height: 25rem;
-    width: 25rem;
+    height: 23rem;
+    width: 23rem;
     background-size: cover;
     background-position: center center;
     border-radius: 50%;
@@ -62,12 +68,13 @@
     margin-right: auto;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    transition: transform 400ms ease;
 }
 
 .img3 {
     background-image: url('../img/tiki.jpg');
-    height: 25rem;
-    width: 25rem;
+    height: 23rem;
+    width: 23rem;
     background-size: cover;
     background-position: center center;
     border-radius: 50%;
@@ -75,28 +82,327 @@
     margin-right: auto;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    transition: transform 400ms ease;
+   
+  
 }
 
-.imageHover {
-/*     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    background-color: yellow;
-    border-radius: 50%;
-    overflow: hidden;
-    opacity: 0;
-    transition: 0.8s ease; */
-    display: none;
+.img1:hover {
+    transform: scale(1.1);
+    animation-duration: 10s;
+    transition: transform 500ms ease;
 }
 
-.circleImage:hover .imageHover {
-    opacity: 0.70;
+.img2:hover {
+    transform: scale(1.1);
+    animation-duration: 10s;
+    transition: transform 500ms ease;
 }
 
-.add {
-    font-size: 5rem;
-    color: white;
-    background-color: transparent;
+.img3:hover {
+    transform: scale(1.1);
+    animation-duration: 10s;
+    transition: transform 500ms ease;
+}
+
+
+
+.bioTextImg{
+
+    text-transform: capitalize;
+    font-family: $font-title;
+    font-size: 1.8rem;
+
+}
+
+.bioTextImgFooter{
+
+    font-family: $primary-font;
+    font-size: 1rem;
+    margin: 0.7rem 0rem;
+}
+
+
+/* =======MEDIA QUERYES======= */
+
+
+// =====Phone 425px =======
+
+
+@media (min-width: 425px){
+
+    #bio {
+        padding-top: 10rem;
+        padding-bottom: 5rem;
+    }
+    
+   
+    .bioText {
+       
+        font-size: 5rem;
+       
+    }
+    
+    .circleBio {
+        height: 15rem;
+        width: 15rem;
+        
+    }
+
+    .circleImage {
+        margin-top: 9.5rem !important;
+        margin-bottom: 3.5rem !important;
+    }
+
+    .img1 {
+      
+        height: 28rem;
+        width: 28rem;
+    
+    }
+    
+    .img2 {
+       
+        height: 28rem;
+        width: 28rem;
+   
+    }
+    
+    .img3 {
+        height: 28rem;
+        width: 28rem;
+       
+    }
+
+    .bioTextImg{
+
+        
+        font-size: 2.6rem;
+    
+    }
+.bioTextImgFooter{
+
+   
+    font-size: 1.3rem;
+    margin: 1rem 0rem;
+}
+}
+
+/* ==TABLET== */
+
+@media (min-width: 768px){
+
+    #bio {
+        padding-top: 12rem;
+        padding-bottom: 6rem;
+    }
+    .bioText {
+       
+        font-size: 6rem;
+       
+    }
+    
+    .circleBio {
+        height: 18rem;
+        width: 18rem;
+        
+    }
+
+    .artistImageWrapper {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+     }
+}
+
+
+/* ====LAPTOP 1024=== */
+
+
+@media (min-width: 1024px){
+
+
+    #bio {
+        padding-top: 15rem;
+        padding-bottom: 12rem;
+    }
+
+    .bioText {
+       
+        font-size: 7rem;
+       
+    }
+    
+    .circleBio {
+        height: 19rem;
+        width: 19rem;
+        
+    }
+    .artistImageWrapper {
+        margin-top: 1rem;
+          
+        }
+
+        .img1 {
+      
+            height: 26rem;
+            width: 26rem;
+        
+        }
+        
+        .img2 {
+           
+            height: 26rem;
+            width: 26rem;
+       
+        }
+        
+        .img3 {
+            height: 26rem;
+            width: 26rem;
+           
+        }
+
+        .bioTextImg{
+
+        
+            font-size: 2.4rem;
+        
+        }
+    .bioTextImgFooter{
+    
+       
+        font-size: 1.2rem;
+        margin: 1rem 0rem;
+    }
+
+}
+
+/* ====LAPTOP 1440=== */
+
+
+@media (min-width: 1440px){
+
+    #bio {
+        padding-top: 17rem;
+        padding-bottom: 20rem;
+    }
+
+    .bioText {
+       
+        font-size: 8rem;
+       
+    }
+    
+    .circleBio {
+        height: 21rem;
+        width: 21rem;
+        
+    }
+    .artistImageWrapper {
+        margin-top: 7rem;
+        margin-bottom: 5rem;
+        
+          
+        }
+
+        .img1 {
+      
+            height: 35rem;
+            width: 35rem;
+        
+        }
+        
+        .img2 {
+           
+            height: 35rem;
+            width: 35rem;
+       
+        }
+        
+        .img3 {
+            height: 35rem;
+            width: 35rem;
+           
+        }
+
+        .bioTextImg{
+
+        
+            font-size: 3rem;
+        
+        }
+    .bioTextImgFooter{
+    
+       
+        font-size: 1.8rem;
+        margin: 1rem 0rem;
+    }
+
+
+}
+
+/* ====LAPTOP 4k=== */
+
+
+@media (min-width: 2560px){
+
+
+    #bio {
+        padding-top: 25rem;
+        padding-bottom: 18rem;
+    }
+
+    .bioText {
+       
+        font-size: 14rem;
+       
+    }
+    
+    .circleBio {
+        height:40rem;
+        width: 40rem;
+        
+    }
+    .artistImageWrapper {
+        margin-top: 18rem;
+        margin-bottom: 16rem;
+        }
+
+        .img1 {
+      
+            height: 65rem;
+            width: 65rem;
+        
+        }
+        
+        .img2 {
+           
+            height: 65rem;
+            width: 65rem;
+        
+       
+        }
+        
+        .img3 {
+            height: 65rem;
+            width: 65rem;
+        
+           
+        }
+
+        .bioTextImg{
+
+        
+            font-size: 6rem;
+        
+        }
+    .bioTextImgFooter{
+    
+       
+        font-size: 3rem;
+        margin: 1rem 0rem;
+    }
+
 }

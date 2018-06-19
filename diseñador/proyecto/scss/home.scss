@@ -672,20 +672,21 @@ display: none;
     
     .trinoHome {
        
-        height:45rem;
-        width: 45rem;
-        padding: 1rem 0.5rem;
+        height:38rem;
+        width: 38rem;
+        padding: 3rem 0.5rem;
         border-top-style: groove; color: rgba(0, 0, 0, 0.90);
        margin-top: 22rem;
-       margin-right: 9.5rem;
+       margin-right: 5rem;
+       margin-left: 3rem;
     }
     
 
     
     .dateCircle{
-        height: 11.5rem;
-        width: 11.5rem;
-        font-size: 1.1rem;
+        height: 8rem;
+        width: 8rem;
+        font-size: 1rem;
        
     
     }
@@ -706,7 +707,7 @@ display: none;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-margin-left: 5.5rem;
+margin-left: 0rem;
 
     }
 
@@ -721,8 +722,8 @@ margin-left: 5.5rem;
     }
 
     .musicTrino{
-height: 35rem;
-width: 35rem;
+height: 30rem;
+width: 30rem;
 border-radius: 50%;
 border-style: double;
 color:  rgba(0, 0, 0, 0.10);
@@ -735,7 +736,7 @@ display: flex;
     }  
 
     .fa-music{
-        font-size: 20rem;
+        font-size: 18rem;
         display: flex;
         justify-content: center;
         align-items: center;
