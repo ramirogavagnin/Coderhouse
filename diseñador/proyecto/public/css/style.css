@@ -12,6 +12,11 @@ a {
   color: #232323;
   transition: color 0.3s ease; }
 
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
 a:hover {
   color: tomato; }
 
@@ -405,7 +410,7 @@ li {
     margin-top: 1rem; } }
 
 /* ==TABLET== */
-@media (min-width: 48em) {
+@media (min-width: 768px) {
   .slideBarContainer {
     display: block; }
   .wrapper {
@@ -480,7 +485,7 @@ li {
     font-size: 1.1rem; }
   .trinoPlayer {
     width: 50rem;
-    height: 25rem; }
+    height: 12rem; }
   .line {
     display: none; }
   .arrowTrino {
@@ -489,7 +494,7 @@ li {
     display: none; } }
 
 /* ====LAPTOP 1024=== */
-@media (min-width: 64em) {
+@media (min-width: 1024px) {
   .slideBarContainer {
     display: block; }
   .wrapper {
@@ -560,25 +565,25 @@ li {
   .trinoHome {
     height: 38rem;
     width: 38rem;
-    padding: 3rem 0.5rem;
+    padding: 2.5rem 1rem;
     border-top-style: groove;
     color: rgba(0, 0, 0, 0.9);
-    margin-top: 22rem;
+    margin-top: 16rem;
     margin-right: 5rem;
     margin-left: 3rem; }
   .dateCircle {
-    height: 8rem;
-    width: 8rem;
-    font-size: 1rem; }
+    height: 9rem;
+    width: 9rem;
+    font-size: 1.1rem; }
   .line {
     display: block;
     width: 0;
-    height: 135rem;
+    height: 129rem;
     border-right-style: ridge;
     color: rgba(0, 0, 0, 0.9);
-    margin: 8rem 2rem; }
+    margin: 5rem 2rem; }
   .playerContainer {
-    margin-top: 27rem;
+    margin-top: 21rem;
     border-top-style: none;
     display: flex;
     align-items: center;
@@ -614,7 +619,7 @@ li {
     margin-left: 1.2rem; } }
 
 /* ====LAPTOP 1440=== */
-@media (min-width: 90em) {
+@media (min-width: 1440px) {
   .slideBarContainer {
     display: block; }
   .wrapper {
@@ -739,7 +744,7 @@ li {
     margin-top: 3rem; } }
 
 /* ====LAPTOP 4k=== */
-@media (min-width: 160em) {
+@media (min-width: 2560px) {
   .slideBarContainer {
     display: block; }
   .wrapper {
@@ -873,7 +878,7 @@ li {
   font-weight: 900;
   text-shadow: 1rem;
   font-size: 3.5rem;
-  font-family: 'Raleway', sans-serif; }
+  font-family: "Raleway", sans-serif; }
 
 .circleBio {
   height: 12rem;
@@ -908,7 +913,8 @@ li {
   margin-right: auto;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  transition: transform 400ms ease; }
+  transition: transform 400ms ease;
+  overflow: hidden; }
 
 .img2 {
   background-image: url("../img/andres.jpg");
@@ -921,7 +927,8 @@ li {
   margin-right: auto;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  transition: transform 400ms ease; }
+  transition: transform 400ms ease;
+  overflow: hidden; }
 
 .img3 {
   background-image: url("../img/tiki.jpg");
@@ -934,7 +941,8 @@ li {
   margin-right: auto;
   margin-top: 3rem;
   margin-bottom: 3rem;
-  transition: transform 400ms ease; }
+  transition: transform 400ms ease;
+  overflow: hidden; }
 
 .img1:hover {
   transform: scale(1.1);
@@ -967,7 +975,7 @@ li {
     padding-top: 10rem;
     padding-bottom: 5rem; }
   .bioText {
-    font-size: 5rem; }
+    font-size: 4.2rem; }
   .circleBio {
     height: 15rem;
     width: 15rem; }
@@ -995,7 +1003,7 @@ li {
     padding-top: 12rem;
     padding-bottom: 6rem; }
   .bioText {
-    font-size: 6rem; }
+    font-size: 5.2rem; }
   .circleBio {
     height: 18rem;
     width: 18rem; }
@@ -1010,12 +1018,12 @@ li {
     padding-top: 15rem;
     padding-bottom: 12rem; }
   .bioText {
-    font-size: 7rem; }
+    font-size: 6.5rem; }
   .circleBio {
     height: 19rem;
     width: 19rem; }
   .artistImageWrapper {
-    margin-top: 1rem; }
+    margin-top: 3rem; }
   .img1 {
     height: 26rem;
     width: 26rem; }
@@ -1101,7 +1109,8 @@ li {
   color: lightsalmon;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-bottom: 1rem; }
 
 .discographyTextContainer {
   display: flex;
@@ -1114,20 +1123,18 @@ li {
   font-weight: 900;
   text-shadow: 1rem;
   font-size: 3.5rem;
-  font-family: 'Raleway', sans-serif; }
+  font-family: "Raleway", sans-serif; }
 
 .discoContainer {
-  top: 0;
-  left: 0;
   background-color: rgba(0, 0, 0, 0.95);
-  height: 42rem;
-  margin: 5rem 2rem; }
+  height: 31rem;
+  margin: 6rem 2rem; }
 
 .trino {
   background-image: url("../img/trino.jpeg");
   background-size: cover;
   background-position: center center;
-  height: 35rem;
+  height: 26rem;
   width: 100%;
   overflow: hidden; }
 
@@ -1135,7 +1142,7 @@ li {
   background-image: url("../img/hermanos.jpg");
   background-size: cover;
   background-position: center center;
-  height: 35rem;
+  height: 26rem;
   width: 100%;
   overflow: hidden; }
 
@@ -1143,7 +1150,7 @@ li {
   background-image: url("../img/ventanas.jpg");
   background-size: cover;
   background-position: center center;
-  height: 35rem;
+  height: 26rem;
   width: 100%;
   overflow: hidden; }
 
@@ -1151,7 +1158,7 @@ li {
   background-image: url("../img/lamusica.jpg");
   background-size: cover;
   background-position: center center;
-  height: 35rem;
+  height: 26rem;
   width: 100%;
   overflow: hidden; }
 
@@ -1159,7 +1166,7 @@ li {
   background-image: url("../img/avenido.png");
   background-size: cover;
   background-position: center center;
-  height: 35rem;
+  height: 26rem;
   width: 100%;
   overflow: hidden; }
 
@@ -1167,40 +1174,42 @@ li {
   background-image: url("../img/acaseca.jpg");
   background-size: cover;
   background-position: center center;
-  height: 35rem;
+  height: 26rem;
   width: 100%;
   overflow: hidden; }
 
 .linkSongs {
   background-color: rgba(0, 0, 0, 0.8);
-  padding: 1.5rem 3rem 1.5rem 3rem;
-  width: 35rem;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-content: center;
-  margin-top: 29rem; }
+  margin-top: 22rem;
+  height: 4rem; }
 
 .discoInfo {
-  padding: 2rem; }
+  padding: 1.5rem;
+  font-size: 1rem; }
 
 .fa-shopping-bag {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: white;
   border-radius: 50%;
-  margin: 0 2rem 0 2rem; }
+  margin: 0 2rem; }
 
 .fa-spotify {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: white;
   border-radius: 50%;
-  margin: 0 2rem 0 2rem; }
+  margin: 0 2rem; }
 
 .fa-itunes {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: white;
   border-radius: 50%;
-  margin: 0 2rem 0 2rem; }
+  margin: 0 2rem; }
 
+/* ======HEXAGON IMAGE ======= */
 .imgHexaConteiner {
   display: flex;
   justify-content: center;
@@ -1276,6 +1285,98 @@ li {
   align-items: center;
   margin-top: 1rem;
   color: rgba(0, 0, 0, 0.8); }
+
+/* =======MEDIA QUERYES======= */
+@media (min-width: 425px) {
+  #discography {
+    padding-top: 8rem;
+    padding-bottom: 16rem;
+    margin-top: 7rem; }
+  .discography {
+    height: 15rem;
+    width: 15rem; }
+  .discographyTitle {
+    font-size: 4.2rem; }
+  .discoContainer {
+    height: 41rem;
+    margin: 10rem 3rem; }
+  .trino {
+    height: 35rem; }
+  .hermanos {
+    height: 35rem; }
+  .ventanas {
+    height: 35rem; }
+  .lamusica {
+    height: 35rem; }
+  .avenido {
+    height: 35rem;
+    width: 100%; }
+  .acaseca {
+    height: 35rem; }
+  .linkSongs {
+    margin-top: 30rem;
+    height: 5rem; }
+  .discoInfo {
+    padding: 2rem;
+    font-size: 1.3rem; }
+  .fa-shopping-bag {
+    font-size: 3rem;
+    margin: 0 3rem; }
+  .fa-spotify {
+    font-size: 3rem;
+    margin: 0 3rem; }
+  .fa-itunes {
+    font-size: 3rem;
+    margin: 0 3rem; } }
+
+/* ==TABLET== */
+@media (min-width: 768px) {
+  .discographyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+  #discography {
+    padding-top: 14rem;
+    padding-bottom: 16rem;
+    margin-top: 8rem; }
+  .discography {
+    height: 18rem;
+    width: 18rem;
+    margin-bottom: 5rem; }
+  .discographyTitle {
+    font-size: 5.2rem; }
+  .discoContainer {
+    width: 45%;
+    height: 42rem;
+    margin: 6rem 1.5rem; }
+  .trino {
+    height: 35rem; }
+  .hermanos {
+    height: 35rem; }
+  .ventanas {
+    height: 35rem; }
+  .lamusica {
+    height: 35rem; }
+  .avenido {
+    height: 35rem; }
+  .acaseca {
+    height: 35rem; }
+  .linkSongs {
+    margin-top: 30rem;
+    height: 5rem; }
+  .discoInfo {
+    padding: 2.5rem;
+    font-size: 1.3rem; }
+  .fa-shopping-bag {
+    font-size: 3rem;
+    margin: 0 3rem; }
+  .fa-spotify {
+    font-size: 3rem;
+    margin: 0 3rem; }
+  .fa-itunes {
+    font-size: 3rem;
+    margin: 0 3rem; } }
 
 .agendaImg {
   background-image: url("../img/coliseo.jpg");

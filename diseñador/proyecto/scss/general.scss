@@ -18,6 +18,14 @@ a
   transition: color 0.3s ease;
 }
 
+a {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
 a:hover
 {
   color: tomato;

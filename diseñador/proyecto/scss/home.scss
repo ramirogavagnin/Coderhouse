@@ -335,7 +335,7 @@ flex-direction: column;
 
 /* ==TABLET== */
 
-@media (min-width: 48em){
+@media (min-width: 768px){
    
     .slideBarContainer{
         display: block;
@@ -499,7 +499,7 @@ flex-direction: column;
 
     .trinoPlayer{
     width: 50rem;
-    height: 25rem;
+    height: 12rem;
 }
 .line{
    display: none;
@@ -523,7 +523,7 @@ display: none;
 /* ====LAPTOP 1024=== */
 
 
-@media (min-width: 64em){
+@media (min-width: 1024px){
     .slideBarContainer{
         display: block;
     
@@ -674,9 +674,9 @@ display: none;
        
         height:38rem;
         width: 38rem;
-        padding: 3rem 0.5rem;
+        padding: 2.5rem 1rem;
         border-top-style: groove; color: rgba(0, 0, 0, 0.90);
-       margin-top: 22rem;
+       margin-top: 16rem;
        margin-right: 5rem;
        margin-left: 3rem;
     }
@@ -684,9 +684,9 @@ display: none;
 
     
     .dateCircle{
-        height: 8rem;
-        width: 8rem;
-        font-size: 1rem;
+        height: 9rem;
+        width: 9rem;
+        font-size: 1.1rem;
        
     
     }
@@ -694,14 +694,14 @@ display: none;
     .line{
         display: block;
         width: 0;
-        height: 135rem;
+        height: 129rem;
         border-right-style: ridge; color: rgba(0, 0, 0, 0.90); 
-        margin: 8rem 2rem;
+        margin: 5rem 2rem;
        
     }
 
     .playerContainer{
-        margin-top: 27rem;
+        margin-top: 21rem;
         border-top-style: none;
         display: flex;
         align-items: center;
@@ -757,7 +757,7 @@ display: flex;
 /* ====LAPTOP 1440=== */
 
 
-@media (min-width: 90em){
+@media (min-width: 1440px){
     .slideBarContainer{
         display: block;
     
@@ -997,7 +997,7 @@ display: flex;
 /* ====LAPTOP 4k=== */
 
 
-@media (min-width: 160em){
+@media (min-width: 2560px){
   
     .slideBarContainer{
         display: block;
