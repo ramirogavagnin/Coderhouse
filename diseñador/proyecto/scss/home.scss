@@ -252,6 +252,7 @@
     height:25rem;
     width: 25rem;
     padding: 1rem 0.5rem;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
     
 }
 
@@ -267,27 +268,31 @@ align-items: center;
 text-shadow: 2rem; color: $title-color;
 font-size: 0.7rem;
 flex-direction: column;
+box-shadow: 0 0 20px rgba(0,0,0,0.6);
 }
 
 .trinoPlayer{
     width: 25rem;
     height: 8rem;
     margin-top: 0.7rem;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
 }
 
 .line{
     display: none;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
  }
  
  
  
  .arrowTrino{
     display: none;
+    
  }
  
  .musicTrino{
  display: none;
-    
+ box-shadow: 0 0 20px rgba(0,0,0,0.6);
  
  
  }  

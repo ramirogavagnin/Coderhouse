@@ -4,9 +4,10 @@
     padding-bottom: 16rem;
     margin-top: 6rem;
 }
-.discography{
-    height: 12rem;
-    width: 12rem;
+
+.discography {
+    height: 11rem;
+    width: 11rem;
     border-radius: 50%;
     border-style: double;
     color: $border-color;
@@ -16,25 +17,26 @@
     margin-bottom: 1rem;
 }
 
-.discographyTextContainer{
+.discographyTextContainer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.discographyTitle{
+.discographyTitle {
     text-transform: capitalize;
     color: $title-color;
     font-weight: 900;
     text-shadow: 1rem;
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     font-family: $font-title;
 }
+
 .discoContainer {
-   
-    background-color: rgba(0, 0, 0, 0.95);
+    background-color: rgba(0, 0, 0, 0.90);
     height: 31rem;
     margin: 6rem 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }
 
 .trino {
@@ -44,7 +46,6 @@
     height: 26rem;
     width: 100%;
     overflow: hidden;
-    
 }
 
 .hermanos {
@@ -73,6 +74,7 @@
     width: 100%;
     overflow: hidden;
 }
+
 .avenido {
     background-image: url("../img/avenido.png");
     background-size: cover;
@@ -81,6 +83,7 @@
     width: 100%;
     overflow: hidden;
 }
+
 .acaseca {
     background-image: url("../img/acaseca.jpg");
     background-size: cover;
@@ -89,8 +92,6 @@
     width: 100%;
     overflow: hidden;
 }
-
-
 
 .linkSongs {
     background-color: rgba(0, 0, 0, 0.80);
@@ -103,8 +104,8 @@
 }
 
 .discoInfo {
-padding: 1.5rem;
-font-size: 1rem;
+    padding: 1.5rem;
+    font-size: 1rem;
 }
 
 .fa-shopping-bag {
@@ -128,86 +129,86 @@ font-size: 1rem;
     margin: 0 2rem;
 }
 
-
 /* ======HEXAGON IMAGE ======= */
 
-.imgHexaConteiner{
+.imgHexaConteiner {
     display: flex;
     justify-content: center;
     align-items: center;
-padding-top: 5rem;
+    padding-top: 5rem;
 }
 
 .hexagon {
     position: relative;
-    width: 300px; 
-    height: 173.21px;
-    margin: 86.60px 0;
+    width: 250px;
+    height: 144.34px;
+    margin: 72.17px 0;
     background-image: url('../img/lostres.jpg');
-    background-size: auto 346.4102px;
+    background-size: auto 288.6751px;
     background-position: center;
-    box-shadow: 0 0 20px rgba(0,0,0,0.6);
-  }
-  
-  .hexTop,
-  .hexBottom {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.hexTop,
+.hexBottom {
     position: absolute;
     z-index: 1;
-    width: 212.13px;
-    height: 212.13px;
+    width: 176.78px;
+    height: 176.78px;
     overflow: hidden;
     -webkit-transform: scaleY(0.5774) rotate(-45deg);
     -ms-transform: scaleY(0.5774) rotate(-45deg);
     transform: scaleY(0.5774) rotate(-45deg);
     background: inherit;
-    left: 43.93px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.6);
-  }
-  
-  /*counter transform the bg image on the caps*/
-  .hexTop:after,
-  .hexBottom:after {
+    left: 36.61px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+/*counter transform the bg image on the caps*/
+
+.hexTop:after,
+.hexBottom:after {
     content: "";
     position: absolute;
-    width: 300.0000px;
-    height: 173.20508075688775px;
-    -webkit-transform:  rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
-    -ms-transform:      rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
-    transform:          rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+    width: 250.0000px;
+    height: 144.33756729740645px;
+    -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-72.1688px);
+    -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-72.1688px);
+    transform: rotate(45deg) scaleY(1.7321) translateY(-72.1688px);
     -webkit-transform-origin: 0 0;
     -ms-transform-origin: 0 0;
     transform-origin: 0 0;
     background: inherit;
-  }
-  
-  .hexTop {
-    top: -106.0660px;
-  }
-  
-  .hexTop:after {
+}
+
+.hexTop {
+    top: -88.3883px;
+}
+
+.hexTop:after {
     background-position: center top;
-  }
-  
-  .hexBottom {
-    bottom: -106.0660px;
-  }
-  
-  .hexBottom:after {
+}
+
+.hexBottom {
+    bottom: -88.3883px;
+}
+
+.hexBottom:after {
     background-position: center bottom;
-  }
-  
-  .hexagon:after {
+}
+
+.hexagon:after {
     content: "";
     position: absolute;
     top: 0.0000px;
     left: 0;
-    width: 300.0000px;
-    height: 173.2051px;
+    width: 250.0000px;
+    height: 144.3376px;
     z-index: 2;
     background: inherit;
-  }
+}
 
-  .arrow {
+.arrow {
     font-size: 5rem;
     display: flex;
     flex-direction: column;
@@ -215,213 +216,513 @@ padding-top: 5rem;
     align-items: center;
     margin-top: 1rem;
     color: rgba(0, 0, 0, 0.8);
-  }
+}
 
-
-  /* =======MEDIA QUERYES======= */
-
+/* =======MEDIA QUERYES======= */
 
 // =====Phone 425px =======
-
-
 @media (min-width: 425px) {
-
-    
     #discography {
-       
         padding-top: 8rem;
         padding-bottom: 16rem;
         margin-top: 7rem;
     }
-    
-    .discography{
-        height: 15rem;
-        width: 15rem;
-     
+    .discography {
+        height: 13rem;
+        width: 13rem;
     }
-    .discographyTitle{
-       
-        font-size: 4.2rem;
-      
+    .discographyTitle {
+        font-size: 4rem;
     }
-
     .discoContainer {
-    
         height: 41rem;
         margin: 10rem 3rem;
     }
-
-
     .trino {
-       
         height: 35rem;
-  
     }
-    
     .hermanos {
-    
         height: 35rem;
-       
     }
-    
     .ventanas {
-       
         height: 35rem;
-        
     }
-    
     .lamusica {
-       
         height: 35rem;
-       
     }
     .avenido {
-       
         height: 35rem;
         width: 100%;
-       
     }
     .acaseca {
-      
         height: 35rem;
-       
     }
-    
-
     .linkSongs {
-       
         margin-top: 30rem;
         height: 5rem;
     }
-
     .discoInfo {
         padding: 2rem;
-        font-size: 1.3rem;
-        }
-        
-        .fa-shopping-bag {
-            font-size: 3rem;
-            margin: 0 3rem;
-        }
-        
-        .fa-spotify {
-            font-size: 3rem;
-            margin: 0 3rem;
-        }
-        
-        .fa-itunes {
-            font-size: 3rem;
-            margin: 0 3rem;
-        }
-
-}
-
-/* ==TABLET== */
-
-@media (min-width: 768px){
-
-
-.discographyContainer{
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-
-}
-
-#discography {
-       
-    padding-top: 14rem;
-    padding-bottom: 16rem;
-    margin-top: 8rem;
-}
-
-.discography{
-    height: 18rem;
-    width: 18rem;
-    margin-bottom: 5rem;
- 
-}
-.discographyTitle{
-   
-    font-size: 5.2rem;
-  
-}
-
-.discoContainer {
-width: 45%;
-    height: 42rem;
-    margin: 6rem 1.5rem;
-}
-
-
-.trino {
-       
-    height: 35rem;
-
-}
-
-.hermanos {
-
-    height: 35rem;
-   
-}
-
-.ventanas {
-   
-    height: 35rem;
-    
-}
-
-.lamusica {
-   
-    height: 35rem;
-   
-}
-.avenido {
-   
-    height: 35rem;
-    
-   
-}
-.acaseca {
-  
-    height: 35rem;
-   
-}
-
-.linkSongs {
-   
-    margin-top: 30rem;
-    height: 5rem;
-}
-
-.discoInfo {
-    padding: 2.5rem;
-    font-size: 1.3rem;
+        font-size: 1.1rem;
     }
-    
     .fa-shopping-bag {
         font-size: 3rem;
         margin: 0 3rem;
     }
-    
     .fa-spotify {
         font-size: 3rem;
         margin: 0 3rem;
     }
-    
     .fa-itunes {
         font-size: 3rem;
         margin: 0 3rem;
     }
+    /* ======HEXAGON IMAGE ======= */
+    .imgHexaConteiner {
+        padding-top: 5rem;
+    }
+    .hexagon {
+        position: relative;
+        width: 300px;
+        height: 173.21px;
+        margin: 86.60px 0;
+        background-image: url('../img/lostres.jpg');
+        background-size: auto 346.4102px;
+        background-position: center;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    }
+    .hexTop,
+    .hexBottom {
+        position: absolute;
+        z-index: 1;
+        width: 212.13px;
+        height: 212.13px;
+        overflow: hidden;
+        -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        -ms-transform: scaleY(0.5774) rotate(-45deg);
+        transform: scaleY(0.5774) rotate(-45deg);
+        background: inherit;
+        left: 43.93px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    }
+    /*counter transform the bg image on the caps*/
+    .hexTop:after,
+    .hexBottom:after {
+        content: "";
+        position: absolute;
+        width: 300.0000px;
+        height: 173.20508075688775px;
+        -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+        -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+        transform: rotate(45deg) scaleY(1.7321) translateY(-86.6025px);
+        -webkit-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        transform-origin: 0 0;
+        background: inherit;
+    }
+    .hexTop {
+        top: -106.0660px;
+    }
+    .hexTop:after {
+        background-position: center top;
+    }
+    .hexBottom {
+        bottom: -106.0660px;
+    }
+    .hexBottom:after {
+        background-position: center bottom;
+    }
+    .hexagon:after {
+        content: "";
+        position: absolute;
+        top: 0.0000px;
+        left: 0;
+        width: 300.0000px;
+        height: 173.2051px;
+        z-index: 2;
+        background: inherit;
+    }
+  
+}
 
-} 
+/* ==TABLET== */
 
-@media (min-width: 1024px){
-
-
-
+@media (min-width: 768px) {
+    .discographyContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    #discography {
+        padding-top: 14rem;
+        padding-bottom: 16rem;
+        margin-top: 8rem;
+    }
+    .discography {
+        height: 16rem;
+        width: 16rem;
+        margin-bottom: 5rem;
+    }
+    .discographyTitle {
+        font-size: 4.5rem;
+    }
+    .discoContainer {
+        width: 40%;
+        height: 36rem;
+        margin: 6rem 1.5rem;
+    }
+    .trino {
+        height: 30rem;
+    }
+    .hermanos {
+        height: 30rem;
+    }
+    .ventanas {
+        height: 30rem;
+    }
+    .lamusica {
+        height: 30rem;
+    }
+    .avenido {
+        height: 30rem;
+    }
+    .acaseca {
+        height: 30rem;
+    }
+    .linkSongs {
+        margin-top: 25.5rem;
+        height: 4.5rem;
+    }
+    .discoInfo {
+        padding: 2rem;
+        font-size: 1.1rem;
+    }
+    .fa-shopping-bag {
+        font-size: 3rem;
+        margin: 0 3rem;
+    }
+    .fa-spotify {
+        font-size: 3rem;
+        margin: 0 3rem;
+    }
+    .fa-itunes {
+        font-size: 3rem;
+        margin: 0 3rem;
+    }
+    /* ======HEXAGON IMAGE ======= */
     
+    .imgHexaConteiner {
+        padding-top: 10rem;
+    }
+    
+    .hexagon {
+        position: relative;
+        width: 400px;
+        height: 230.94px;
+        margin: 115.47px 0;
+        background-image: url('../img/lostres.jpg');
+        background-size: auto 461.8802px;
+        background-position: center;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    }
+    .hexTop,
+    .hexBottom {
+        position: absolute;
+        z-index: 1;
+        width: 282.84px;
+        height: 282.84px;
+        overflow: hidden;
+        -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        -ms-transform: scaleY(0.5774) rotate(-45deg);
+        transform: scaleY(0.5774) rotate(-45deg);
+        background: inherit;
+        left: 58.58px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    }
+    /*counter transform the bg image on the caps*/
+    .hexTop:after,
+    .hexBottom:after {
+        content: "";
+        position: absolute;
+        width: 400.0000px;
+        height: 230.94010767585033px;
+        -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-115.4701px);
+        -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-115.4701px);
+        transform: rotate(45deg) scaleY(1.7321) translateY(-115.4701px);
+        -webkit-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        transform-origin: 0 0;
+        background: inherit;
+    }
+    .hexTop {
+        top: -141.4214px;
+    }
+    .hexTop:after {
+        background-position: center top;
+    }
+    .hexBottom {
+        bottom: -141.4214px;
+    }
+    .hexBottom:after {
+        background-position: center bottom;
+    }
+    .hexagon:after {
+        content: "";
+        position: absolute;
+        top: 0.0000px;
+        left: 0;
+        width: 400.0000px;
+        height: 230.9401px;
+        z-index: 2;
+        background: inherit;
+    }
+
+    .arrow {
+        font-size: 6rem;
+        margin-top: 1.5rem;
+      
+    }
+}
+
+/* ====LAPTOP 1024=== */
+
+@media (min-width: 1024px) {
+    #discography {
+        padding-top: 16rem;
+        padding-bottom: 18rem;
+    }
+    .discography {
+        margin-bottom: 5rem;
+    }
+    .discoContainer {
+        width: 30%;
+    }
+}
+
+/* ====LAPTOP 1440=== */
+
+@media (min-width: 1440px) {
+    #discography {
+        padding-top: 18rem;
+        padding-bottom: 20rem;
+    }
+    .discoContainer {
+        width: 21%;
+        margin: 7rem 1.5rem;
+    }
+    .discographyTitle {
+        font-size: 5.5rem;
+    }
+    .discography {
+        height: 18rem;
+        width: 18rem;
+        margin-bottom: 8rem;
+    }
+    /* ======HEXAGON IMAGE ======= */
+    
+    .imgHexaConteiner {
+        padding-top: 14rem;
+    }
+    
+    .hexagon {
+        position: relative;
+        width: 450px;
+        height: 259.81px;
+        margin: 129.90px 0;
+        background-image: url('../img/lostres.jpg');
+        background-size: auto 519.6152px;
+        background-position: center;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    }
+    .hexTop,
+    .hexBottom {
+        position: absolute;
+        z-index: 1;
+        width: 318.20px;
+        height: 318.20px;
+        overflow: hidden;
+        -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        -ms-transform: scaleY(0.5774) rotate(-45deg);
+        transform: scaleY(0.5774) rotate(-45deg);
+        background: inherit;
+        left: 65.90px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    }
+    /*counter transform the bg image on the caps*/
+    .hexTop:after,
+    .hexBottom:after {
+        content: "";
+        position: absolute;
+        width: 450.0000px;
+        height: 259.8076211353316px;
+        -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-129.9038px);
+        -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-129.9038px);
+        transform: rotate(45deg) scaleY(1.7321) translateY(-129.9038px);
+        -webkit-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        transform-origin: 0 0;
+        background: inherit;
+    }
+    .hexTop {
+        top: -159.0990px;
+    }
+    .hexTop:after {
+        background-position: center top;
+    }
+    .hexBottom {
+        bottom: -159.0990px;
+    }
+    .hexBottom:after {
+        background-position: center bottom;
+    }
+    .hexagon:after {
+        content: "";
+        position: absolute;
+        top: 0.0000px;
+        left: 0;
+        width: 450.0000px;
+        height: 259.8076px;
+        z-index: 2;
+        background: inherit;
+    }
+
+    .arrow {
+        font-size: 7rem;
+        margin-top: 2rem;
+      
+    }
+}
+
+/* ====LAPTOP 4k=== */
+
+@media (min-width: 2560px) {
+    #discography {
+        padding-top: 30rem;
+        padding-bottom: 35rem;
+    }
+    .discographyTitle {
+        font-size: 10rem;
+    }
+    .discography {
+        height: 35rem;
+        width: 35rem;
+        margin-bottom: 14rem;
+    }
+    .discoContainer {
+        height: 65rem;
+        margin: 12rem 2rem;
+    }
+    .trino {
+        height: 55rem;
+    }
+    .hermanos {
+        height: 55rem;
+    }
+    .ventanas {
+        height: 55rem;
+    }
+    .lamusica {
+        height: 55rem;
+    }
+    .avenido {
+        height: 55rem;
+    }
+    .acaseca {
+        height: 55rem;
+    }
+    .linkSongs {
+        margin-top: 47rem;
+        height: 8rem;
+    }
+    .discoInfo {
+        padding: 3rem;
+        font-size: 2rem;
+    }
+    .fa-shopping-bag {
+        font-size: 5rem;
+        margin: 0 3rem;
+    }
+    .fa-spotify {
+        font-size: 5rem;
+        margin: 0 3rem;
+    }
+    .fa-itunes {
+        font-size: 5rem;
+        margin: 0 3rem;
+    }
+    /* ======HEXAGON IMAGE ======= */
+    
+    .imgHexaConteiner {
+        padding-top: 22rem;
+    }
+    
+    .hexagon {
+        position: relative;
+        width: 700px;
+        height: 404.15px;
+        margin: 202.07px 0;
+        background-image: url('../img/lostres.jpg');
+        background-size: auto 808.2904px;
+        background-position: center;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    }
+    .hexTop,
+    .hexBottom {
+        position: absolute;
+        z-index: 1;
+        width: 494.97px;
+        height: 494.97px;
+        overflow: hidden;
+        -webkit-transform: scaleY(0.5774) rotate(-45deg);
+        -ms-transform: scaleY(0.5774) rotate(-45deg);
+        transform: scaleY(0.5774) rotate(-45deg);
+        background: inherit;
+        left: 102.51px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    }
+    /*counter transform the bg image on the caps*/
+    .hexTop:after,
+    .hexBottom:after {
+        content: "";
+        position: absolute;
+        width: 700.0000px;
+        height: 404.14518843273805px;
+        -webkit-transform: rotate(45deg) scaleY(1.7321) translateY(-202.0726px);
+        -ms-transform: rotate(45deg) scaleY(1.7321) translateY(-202.0726px);
+        transform: rotate(45deg) scaleY(1.7321) translateY(-202.0726px);
+        -webkit-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+        transform-origin: 0 0;
+        background: inherit;
+    }
+    .hexTop {
+        top: -247.4874px;
+    }
+    .hexTop:after {
+        background-position: center top;
+    }
+    .hexBottom {
+        bottom: -247.4874px;
+    }
+    .hexBottom:after {
+        background-position: center bottom;
+    }
+    .hexagon:after {
+        content: "";
+        position: absolute;
+        top: 0.0000px;
+        left: 0;
+        width: 700.0000px;
+        height: 404.1452px;
+        z-index: 2;
+        background: inherit;
+    }
+
+    .arrow {
+        font-size: 12rem;
+        margin-top: 4rem;
+      
+    }
+
 }
