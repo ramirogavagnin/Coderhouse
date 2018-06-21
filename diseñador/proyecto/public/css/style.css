@@ -1685,161 +1685,65 @@ li {
 .agendaImg {
   background-image: url("../img/coliseo.jpg");
   width: 100%;
-  height: 20rem;
+  height: 16rem;
   background-position: center center;
   background-size: cover;
   border-radius: 2%;
-  overflow: hidden; }
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end; }
 
 .agendaTitle {
-  padding-top: 14rem;
-  padding-right: 6rem; }
+  padding: 1rem; }
 
 .agendaText {
   color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: 4rem;
-  text-align: right; }
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2.5rem; }
 
-/* #ticketButton1 {
+/* =======MEDIA QUERYES======= */
+@media (min-width: 425px) {
+  .agendaImg {
+    height: 18rem; } }
 
-    height: 3rem;
-    width: 10rem;
-    display: flex;
-    justify-content: right;
-    cursor: pointer;
-    
-}
+/* ==TABLET== */
+@media (min-width: 768px) {
+  .agendaImg {
+    height: 30rem; }
+  .agendaTitle {
+    padding: 2rem; }
+  .agendaText {
+    font-size: 4rem; } }
 
-#ticketButton2 {
+/* ====LAPTOP 1024=== */
+@media (min-width: 1024px) {
+  .agendaImg {
+    height: 40rem; }
+  .agendaTitle {
+    padding: 2.5rem; }
+  .agendaText {
+    font-size: 4.5rem; } }
 
-    height: 3rem;
-    width: 10rem;
-    display: flex;
-    justify-content: right;
-    cursor: pointer;
-    
-}
+/* ====LAPTOP 1440=== */
+@media (min-width: 1440px) {
+  .agendaImg {
+    height: 56rem; }
+  .agendaTitle {
+    padding: 3.5rem; }
+  .agendaText {
+    font-size: 4.8rem; } }
 
-#ticketButton3 {
+/* ====LAPTOP 4k=== */
+@media (min-width: 2560px) {
+  .agendaImg {
+    height: 100rem; }
+  .agendaTitle {
+    padding: 6rem; }
+  .agendaText {
+    font-size: 9rem; } }
 
-    height: 3rem;
-    width: 10rem;
-    display: flex;
-    justify-content: right;
-    cursor: pointer;
-    
-}
-
-.slideBar {
-
-    display: flex;
-  justify-content: space-around;
-    position: absolute;
-    padding-left: 1rem;
-    animation-name: opacity3;
-    animation-iteration-count: infinite;
-    animation-duration: 20s;
-    
-   
-}
-
-.slideBar2 {
-
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
-    animation-name: opacity2;
-    animation-iteration-count: infinite;
-    animation-duration: 20s;
-
-}
-
-.slideBar3 {
-
-    display: flex;
-    justify-content: space-around;
-    position: absolute;
-    animation-name: opacity1;
-    animation-iteration-count: infinite;
-    animation-duration: 20s;
-    
-}
-.date {
-    display: flex;
-    flex-direction:column; 
-    justify-content: center;
-    align-items: center;
-}
-
-.input{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-@keyframes opacity1 {
-
-    0% {
-        opacity: 1;
-    }
-
-    20% {
-        opacity: 0;
-    }
-    50% {
-        opacity: 0;
-    }
-    75%{
-        opacity: 0;
-    }
-    80%{
-        opacity: 1;
-    }
-}
-
-@keyframes opacity2 {
-
-    0% {
-        opacity: 0;
-    }
-
-    30% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100%{
-        opacity: 0;
-    }
-}
-
-@keyframes opacity3 {
-
-    0% {
-        opacity: 0;
-    }
-
-    25% {
-        opacity: 0;
-    }
-    70% {
-        opacity: 1;
-    }
-
-    
-    90%{
-        opacity: 0;
-    }
-    
-    100%{
-        opacity: 0;
-    }
-}
- */
 #contacto {
   background-color: rgba(0, 0, 0, 0.09);
   padding-top: 15rem; }
