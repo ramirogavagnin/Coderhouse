@@ -3,6 +3,7 @@
     padding-top: 6rem;
     padding-bottom: 16rem;
     margin-top: 6rem;
+    display: none;
 }
 
 .discography {
@@ -220,8 +221,8 @@
 
 /* =======MEDIA QUERYES======= */
 
-// =====Phone 425px =======
-@media (min-width: 425px) {
+// =====Phone 375px ======= Iphone 6s 
+@media (min-width: 375px) {
     #discography {
         padding-top: 8rem;
         padding-bottom: 16rem;
@@ -234,6 +235,60 @@
     .discographyTitle {
         font-size: 4rem;
     }
+    .discoContainer {
+        height: 36.5rem;
+        margin: 10rem 3rem;
+    }
+    .trino {
+        height: 30rem;
+    }
+    .hermanos {
+        height: 30rem;
+    }
+    .ventanas {
+        height: 30rem;
+    }
+    .lamusica {
+        height: 30rem;
+    }
+    .avenido {
+        height: 30rem;
+     
+    }
+    .acaseca {
+        height: 30rem;
+    }
+    .linkSongs {
+        margin-top: 25rem;
+        height: 5rem;
+    }
+    .discoInfo {
+        padding: 2rem;
+        font-size: 1rem;
+    }
+    .fa-shopping-bag {
+        font-size: 3rem;
+        margin: 0 3rem;
+    }
+    .fa-spotify {
+        font-size: 3rem;
+        margin: 0 3rem;
+    }
+    .fa-itunes {
+        font-size: 3rem;
+        margin: 0 3rem;
+    }
+}
+
+
+
+
+// =====Phone 414px ======= Iphone 6s Plus
+
+
+@media (min-width: 414px) {
+
+    
     .discoContainer {
         height: 41rem;
         margin: 10rem 3rem;
@@ -252,7 +307,7 @@
     }
     .avenido {
         height: 35rem;
-        width: 100%;
+     /*    width: 100%; */
     }
     .acaseca {
         height: 35rem;

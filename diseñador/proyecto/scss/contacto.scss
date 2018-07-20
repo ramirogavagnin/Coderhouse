@@ -1,6 +1,7 @@
 #contacto{
     background-color:  rgba(0, 0, 0, 0.09);
     padding-top: 15rem;
+    display: none;
     }
     
     .contactContainer{
@@ -61,7 +62,7 @@
       width: 100%;
     }
     
-    #name {
+    #firstName {
         background-color:  white;
         border-radius: 5%;
         border-style: ridge;
@@ -100,7 +101,7 @@
     margin-bottom: 1rem;
     }
     
-    #consulta {
+    #comments {
         background-color:  white;
         border-radius: 5%;
         border-style: ridge;
@@ -118,7 +119,7 @@
         justify-content: flex-end;
     }
     
-    #submit{
+    #submitButton{
         color: white;
         background-color: rgba(0, 0, 0, 0.8);
         border-radius: 5%;
@@ -132,3 +133,51 @@
         
     
     }
+
+    .is-valid{
+        border-style: solid;
+        border-color: lawngreen;
+
+    }
+
+    .is-invalid{
+        border-style: solid;
+        border-color: red;
+    }
+
+    .disabled{
+
+       background-color: rgba(0, 0, 0, 0.80) !important;
+       color:  rgba(0, 0, 0, 0.60) !important; 
+    }
+  
+
+
+// Media Queries
+
+
+    // ==TABLET== 
+
+@media (min-width: 768px) {
+
+
+
+    .formContainer{
+        width: 80%;
+      }
+
+
+}
+
+ // ==LAPTOP==  1360px
+
+ @media (min-width: 1360px) {
+
+
+
+    .formContainer{
+        width: 60%;
+      }
+
+
+}

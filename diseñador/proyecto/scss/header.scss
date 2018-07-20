@@ -24,6 +24,8 @@ header {
     align-items: center;
     flex-direction: column;
     margin: 0.5rem 0.8rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
 }
 
 .textHeader {
@@ -38,18 +40,15 @@ header {
 
 .navbar {
     width: 100%;
-    height: 0;
-    background-color: rgba(0,0,0,0.50);
-top: 0;
-left: 0;
-position: sticky;
-
-z-index: 2000;
+   left: 0;
+   top: 0;
+ position: fixed;
+z-index: 10000;
 }
 
 .fa-times{
     font-size: 3rem;
-    color: rgba(0,0,0,0.85);
+    color: rgba(0,0,0,0.30);
     margin: 1rem;
     position: absolute;
   
@@ -58,7 +57,7 @@ z-index: 2000;
 
 .fa-bars{
     font-size: 2.2rem;
-    color: rgba(0,0,0,0.85);
+    color: rgba(0,0,0,0.60);
     margin: 1rem;
     position: relative;
 
@@ -67,7 +66,7 @@ z-index: 2000;
 
 
 
-#toggleMenu{
+#menuContainer{
 height: 1000vh;
 width: 100%;
 background-color: rgba(0,0,0,0.50);
@@ -78,7 +77,7 @@ position: absolute;
 
 }
 
-#menuContainer{
+#menu{
     height: 1000vh;
     width: 24rem;
     background-color: whitesmoke;
@@ -86,7 +85,7 @@ position: absolute;
     
 }
 
-#menu {
+#menuList {
  
     list-style: none;
     font-size: 1rem;
@@ -96,6 +95,7 @@ position: absolute;
     align-items: center;
     justify-content: center;
     padding: 5rem 0;
+    scroll-behavior: auto;
 }
 li{
     margin: 1.5rem 0;
@@ -148,13 +148,13 @@ header {
 
 
 
-#menuContainer{
+#menu{
   
     width: 33rem;
   
 }
 
-#menu {
+#menuContainer {
  
     font-size: 1rem;
    

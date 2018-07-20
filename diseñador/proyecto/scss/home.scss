@@ -1,57 +1,50 @@
-.slideBarContainer{
+.slideBarContainer {
     display: flex;
     background-color: black;
-
-
 }
 
- .wrapper3{
+.wrapper3 {
     display: none;
+}
 
+.wrapper4 {
+    display: none;
+}
 
- }
- .wrapper4{
-   display: none;
- }
-
-     .item {
-
+.item {
     height: 5rem;
     width: 100%;
     background-color: black;
-   border-top-style: solid; color: gray;
-   border-bottom-style: solid; color: gray;
-   border-left-style: groove; color: gray;
-   border-right-style: groove; color: gray;
-  
-  
-   
+    border-top-style: solid;
+    color: gray;
+    border-bottom-style: solid;
+    color: gray;
+    border-left-style: groove;
+    color: gray;
+    border-right-style: groove;
+    color: gray;
 }
 
-#home{
-    height:5rem;
+#home {
+    height: 5rem;
     width: 100%;
-   
-    
 }
-
 
 .date {
     display: flex;
-    flex-direction:column; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     font-size: 0.8rem;
 }
 
-.input{
+.input {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #ticketButton1 {
-
     height: 2.5rem;
     width: 9rem;
     display: flex;
@@ -59,11 +52,9 @@
     align-items: center;
     cursor: pointer;
     font-size: 1.2rem;
-    
 }
 
 #ticketButton2 {
-
     height: 2.5rem;
     width: 9rem;
     display: flex;
@@ -71,11 +62,9 @@
     align-items: center;
     cursor: pointer;
     font-size: 1.2rem;
-    
 }
 
 #ticketButton3 {
-
     height: 2.5rem;
     width: 9rem;
     display: flex;
@@ -86,7 +75,6 @@
 }
 
 #ticketButton4 {
-
     height: 2.5rem;
     width: 9rem;
     display: flex;
@@ -94,148 +82,120 @@
     align-items: center;
     cursor: pointer;
     font-size: 1.2rem;
-    
 }
 
 .slideBar {
-
     display: flex;
-  justify-content: space-around;
-  position: absolute;
+    justify-content: space-around;
+    position: absolute;
     animation-name: opacity1;
     animation-iteration-count: infinite;
     animation-duration: 20s;
-  
-    
-   
 }
 
 .slideBar2 {
-
     display: flex;
     justify-content: space-around;
     position: absolute;
     animation-name: opacity2;
     animation-iteration-count: infinite;
     animation-duration: 20s;
-
 }
 
 .slideBar3 {
-
     display: flex;
     justify-content: space-around;
     position: absolute;
     animation-name: opacity3;
     animation-iteration-count: infinite;
     animation-duration: 20s;
-    
-    
 }
 
 .slideBar4 {
-
     display: flex;
     justify-content: space-around;
     position: absolute;
     animation-name: opacity4;
     animation-iteration-count: infinite;
     animation-duration: 20s;
-    
 }
 
-
-
 @keyframes opacity1 {
-
     0% {
         opacity: 1;
     }
-
     20% {
         opacity: 0;
     }
     50% {
         opacity: 0;
     }
-    75%{
+    75% {
         opacity: 0;
     }
-    95%{
+    95% {
         opacity: 1;
     }
 }
 
 @keyframes opacity2 {
-
     0% {
         opacity: 0;
     }
-
     30% {
         opacity: 1;
     }
     50% {
         opacity: 0;
     }
-    100%{
+    100% {
         opacity: 0;
     }
 }
 
 @keyframes opacity3 {
-
     0% {
         opacity: 0;
     }
-
     25% {
         opacity: 0;
     }
     70% {
         opacity: 1;
     }
-
-    
-    90%{
+    90% {
         opacity: 0;
     }
-    
-    100%{
+    100% {
         opacity: 0;
     }
 }
 
 @keyframes opacity4 {
-
     0% {
         opacity: 0;
     }
-
     25% {
         opacity: 0;
     }
     70% {
         opacity: 0;
     }
-
-    
-    80%{
+    80% {
         opacity: 1;
     }
-    90%{
+    90% {
         opacity: 0;
     }
-    100%{
+    100% {
         opacity: 0;
     }
 }
 
-
 #trino {
     background-color: rgba(0, 0, 0, 0.09);
     padding-top: 6rem;
-    padding-bottom:9rem;
+    padding-bottom: 9rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -249,14 +209,13 @@
     overflow: hidden;
     background-size: cover;
     background-position: center center;
-    height:25rem;
+    height: 25rem;
     width: 25rem;
     padding: 1rem 0.5rem;
-    box-shadow: 0 0 20px rgba(0,0,0,0.6);
-    
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }
 
-.dateCircle{
+.dateCircle {
     height: 6rem;
     width: 6rem;
     border-radius: 50%;
@@ -264,685 +223,449 @@
     color: white;
     display: flex;
     justify-content: center;
-align-items: center;
-text-shadow: 2rem; color: $title-color;
-font-size: 0.7rem;
-flex-direction: column;
-box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    align-items: center;
+    text-shadow: 2rem;
+    color: $title-color;
+    font-size: 0.7rem;
+    flex-direction: column;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }
 
-.trinoPlayer{
+.trinoPlayer {
     width: 25rem;
     height: 8rem;
     margin-top: 0.7rem;
-    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }
 
-.line{
+.line {
     display: none;
-    box-shadow: 0 0 20px rgba(0,0,0,0.6);
- }
- 
- 
- 
- .arrowTrino{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+.arrowTrino {
     display: none;
-    
- }
- 
- .musicTrino{
- display: none;
- box-shadow: 0 0 20px rgba(0,0,0,0.6);
- 
- 
- }  
+}
 
+.musicTrino {
+    display: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
 
- /* =======MEDIA QUERYES======= */
+/* =======MEDIA QUERYES======= */
 
 // =====Phone 425px =======
-
-@media (min-width: 425px){
-
+@media (min-width: 425px) {
     #trino {
-       
         padding-top: 7rem;
         padding-bottom: 10rem;
-       
     }
-
-
     .trinoHome {
-
-        height:35rem;
+        height: 35rem;
         width: 35rem;
         padding: 2rem 1rem;
-        
     }
-   
-    .dateCircle{
+    .dateCircle {
         height: 8rem;
         width: 8rem;
-    font-size: 0.9rem;
-   
+        font-size: 0.9rem;
     }
-
-
-    .trinoPlayer{
+    .trinoPlayer {
         width: 35rem;
         height: 8rem;
         margin-top: 1rem;
     }
-
 }
-
-
 
 /* ==TABLET== */
 
-@media (min-width: 768px){
-   
-    .slideBarContainer{
+@media (min-width: 768px) {
+    .slideBarContainer {
         display: block;
-    
-    
     }
-    
     .wrapper {
-    
         display: flex;
         position: absolute;
         width: 100%;
-        
     }
-    
-    .wrapper2{
-      
+    .wrapper2 {
         display: flex;
         opacity: 0;
         animation-name: wrapper2;
         animation-iteration-count: infinite;
         animation-duration: 12s;
-         }
-    
-    
-    
-     .wrapper3{
-       display: none;
-    
-    
-     }
-     .wrapper4{
+    }
+    .wrapper3 {
         display: none;
-     }
-
-     .item {
-
-        height: 6rem;
-    
     }
-    
-    #home{
-        height: 6rem;
-        
+    .wrapper4 {
+        display: none;
     }
-
+    .item {
+        height: 6rem;
+    }
+    #home {
+        height: 6rem;
+    }
     .date {
-  
-        font-size: 0.92rem;
+        font-size: 0.8rem;
     }
-     
-    
     #ticketButton1 {
-
         height: 3rem;
         width: 10rem;
         font-size: 1.3rem;
-        
     }
-    
     #ticketButton2 {
         height: 3rem;
         width: 10rem;
         font-size: 1.3rem;
-        
-        
     }
-    
     #ticketButton3 {
         height: 3rem;
         width: 10rem;
         font-size: 1.3rem;
-        
     }
-    
     #ticketButton4 {
         height: 3rem;
         width: 10rem;
         font-size: 1.3rem;
-        
-        
     }
-
- 
-     
-     .slideBar {
-
-        
-      position: relative;
+    .slideBar {
+        position: relative;
         animation-name: none;
-       
-        
-       
     }
-    
     .slideBar2 {
-    
         position: relative;
         animation-name: none;
-    
     }
-    
     .slideBar3 {
-    
         position: relative;
         animation-name: none;
-        
-        
     }
-    
     .slideBar4 {
-    
         position: relative;
         animation-name: none;
-        
     }
-
-   
-
     @keyframes wrapper2 {
-
         0% {
             opacity: 0;
         }
-    
         20% {
             opacity: 0;
         }
         50% {
             opacity: 1;
         }
-        75%{
+        75% {
             opacity: 1;
         }
-        95%{
+        95% {
             opacity: 0;
         }
     }
     #trino {
-       
         padding-top: 14rem;
         padding-bottom: 19rem;
-        
-       
     }
-    
     .trinoHome {
-       
-        height:50rem;
+        height: 50rem;
         width: 50rem;
         padding: 2.5rem 1.5rem;
     }
-
-    .dateCircle{
+    .dateCircle {
         height: 11.5rem;
         width: 11.5rem;
         font-size: 1.1rem;
-
-    
     }
-
-    .trinoPlayer{
-    width: 50rem;
-    height: 12rem;
-}
-.line{
-   display: none;
-}
-
-
-
-.arrowTrino{
-   display: none;
-}
-
-.musicTrino{
-display: none;
-   
-
-
-}  
-
+    .trinoPlayer {
+        width: 50rem;
+        height: 12rem;
+    }
+    .line {
+        display: none;
+    }
+    .arrowTrino {
+        display: none;
+    }
+    .musicTrino {
+        display: none;
+    }
 }
 
 /* ====LAPTOP 1024=== */
 
-
-@media (min-width: 1024px){
-    .slideBarContainer{
+@media (min-width: 1024px) {
+    .slideBarContainer {
         display: block;
-    
-    
     }
     .wrapper {
-
         display: none;
-        
-      
-         
-        
-     }
-     
-     .wrapper2{
-       
-         display: none;
-       
-          }
-     
-     
-     
-      .wrapper3{
-         display: flex;
-         position: absolute;
-         width: 100%;
-     
-     
-      }
-      .wrapper4{
-         display: flex;
-         opacity: 0;
-         width: 100%;
-         animation-name: wrapper4;
-         animation-iteration-count: infinite;
-         animation-duration: 12s;
-      }
-
-      .item {
-
-        height: 6.5rem;
-    
     }
-    
-    #home{
-        height: 6.5rem;
-        
-    }
-    
-    .date {
-  
-        font-size: 0.9rem;
-    }
-     
-    
-    #ticketButton1 {
-
-        height: 3rem;
-        width: 10rem;
-        font-size: 1.3rem;
-        
-    }
-    
-    #ticketButton2 {
-        height: 3rem;
-        width: 10rem;
-        font-size: 1.3rem;
-        
-        
-    }
-    
-    #ticketButton3 {
-        height: 3rem;
-        width: 10rem;
-        font-size: 1.3rem;
-        
-    }
-    
-    #ticketButton4 {
-        height: 3rem;
-        width: 10rem;
-        font-size: 1.3rem;
-        
-        
-    }
-
-
-      .slideBar {
-
-        
-        position: relative;
-          animation-name: none;
-         
-          
-         
-      }
-      
-      .slideBar2 {
-      
-          position: relative;
-          animation-name: none;
-      
-      }
-      
-      .slideBar3 {
-      
-          position: relative;
-          animation-name: none;
-          
-          
-      }
-      
-      .slideBar4 {
-      
-          position: relative;
-          animation-name: none;
-          
-      }
-
-      @keyframes wrapper4 {
-
-        0% {
-            opacity: 0;
-        }
-    
-        20% {
-            opacity: 0;
-        }
-        50% {
-            opacity: 1;
-        }
-        75%{
-            opacity: 1;
-        }
-        95%{
-            opacity: 0;
-        }
-    }
-    #trino {
-       
-        padding-top: 2rem;
-        padding-bottom: 10rem;
-       align-items: flex-start;
-        flex-direction: row;
-    }
-    
-    .trinoHome {
-       
-        height:38rem;
-        width: 38rem;
-        padding: 2.5rem 1rem;
-        border-top-style: groove; color: rgba(0, 0, 0, 0.90);
-       margin-top: 16rem;
-       margin-right: 5rem;
-       margin-left: 3rem;
-    }
-    
-
-    
-    .dateCircle{
-        height: 9rem;
-        width: 9rem;
-        font-size: 1.1rem;
-       
-    
-    }
-
-    .line{
-        display: block;
-        width: 0;
-        height: 129rem;
-        border-right-style: ridge; color: rgba(0, 0, 0, 0.90); 
-        margin: 5rem 2rem;
-       
-    }
-
-    .playerContainer{
-        margin-top: 21rem;
-        border-top-style: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-margin-left: 0rem;
-
-    }
-
-    .arrowTrino{
-        font-size: 10rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 5rem 0;
-    color: rgba(0, 0, 0, 0.8);
-    }
-
-    .musicTrino{
-height: 30rem;
-width: 30rem;
-border-radius: 50%;
-border-style: double;
-color:  rgba(0, 0, 0, 0.10);
-display: flex;
-        justify-content: center;
-        align-items: center;
-       
-
-
-    }  
-
-    .fa-music{
-        font-size: 18rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-       
-        color: rgba(0, 0, 0, 0.8)
-        
-    }
-
-    .trinoPlayer{
-    width: 45rem;
-    height: 45rem;
-    margin-left: 1.2rem;
-    
-}
-
-}
-
-/* ====LAPTOP 1440=== */
-
-
-@media (min-width: 1440px){
-    .slideBarContainer{
-        display: block;
-    
-    
-    }
-    .wrapper {
-
+    .wrapper2 {
         display: none;
-        
-      
-         
-        
-     }
-     
-     .wrapper2{
-       
-         display: none;
-       
-          }
-     
-     
-     
-      .wrapper3{
-         display: flex;
-         position: absolute;
-         width: 100%;
-     
-     
-      }
-      .wrapper4{
+    }
+    .wrapper3 {
+        display: flex;
+        position: absolute;
+        width: 100%;
+    }
+    .wrapper4 {
         display: flex;
         opacity: 0;
         width: 100%;
         animation-name: wrapper4;
         animation-iteration-count: infinite;
         animation-duration: 12s;
-     }
-    
-    
-     .item {
-
-        height: 7.5rem;
-    
     }
-    
-    #home{
-        height: 7.5rem;
-    
+    .item {
+        height: 6.5rem;
     }
-
-
-  
-    
+    #home {
+        height: 6.5rem;
+    }
     .date {
-  
-        font-size: 1.1rem;
+        font-size: 0.9rem;
     }
-     
-    
     #ticketButton1 {
-
-        height: 3.5rem;
-        width: 12rem;
-        font-size: 1.5rem;
-        
+        height: 3rem;
+        width: 10rem;
+        font-size: 1.3rem;
     }
-    
     #ticketButton2 {
-        height: 3.5rem;
-        width: 12rem;
-        font-size: 1.5rem;
-        
-        
+        height: 3rem;
+        width: 10rem;
+        font-size: 1.3rem;
     }
-    
     #ticketButton3 {
-        height: 3.5rem;
-        width: 12rem;
-        font-size: 1.5rem;
-        
+        height: 3rem;
+        width: 10rem;
+        font-size: 1.3rem;
     }
-    
     #ticketButton4 {
-        height: 3.5rem;
-        width: 12rem;
-        font-size: 1.5rem;
-        
-        
+        height: 3rem;
+        width: 10rem;
+        font-size: 1.3rem;
     }
-    
-
-      .slideBar {
-
-        
+    .slideBar {
         position: relative;
-          animation-name: none;
-         
-          
-         
-      }
-      
-      .slideBar2 {
-      
-          position: relative;
-          animation-name: none;
-      
-      }
-      
-      .slideBar3 {
-      
-          position: relative;
-          animation-name: none;
-          
-          
-      }
-      
-      .slideBar4 {
-      
-          position: relative;
-          animation-name: none;
-          
-      }
-
-      @keyframes wrapper4 {
-
+        animation-name: none;
+    }
+    .slideBar2 {
+        position: relative;
+        animation-name: none;
+    }
+    .slideBar3 {
+        position: relative;
+        animation-name: none;
+    }
+    .slideBar4 {
+        position: relative;
+        animation-name: none;
+    }
+    @keyframes wrapper4 {
         0% {
             opacity: 0;
         }
-    
         20% {
             opacity: 0;
         }
         50% {
             opacity: 1;
         }
-        75%{
+        75% {
             opacity: 1;
         }
-        95%{
+        95% {
             opacity: 0;
         }
     }
     #trino {
-       
-        padding-top: 6rem;
+        padding-top: 2rem;
         padding-bottom: 10rem;
-       align-items: flex-start;
+        align-items: flex-start;
         flex-direction: row;
     }
-    
     .trinoHome {
-       
-        height:65rem;
+        height: 38rem;
+        width: 38rem;
+        padding: 2.5rem 1rem;
+        border-top-style: groove;
+        color: rgba(0, 0, 0, 0.90);
+        margin-top: 16rem;
+        margin-right: 5rem;
+        margin-left: 3rem;
+    }
+    .dateCircle {
+        height: 9rem;
+        width: 9rem;
+        font-size: 1.1rem;
+    }
+    .line {
+        display: block;
+        width: 0;
+        height: 129rem;
+        border-right-style: ridge;
+        color: rgba(0, 0, 0, 0.90);
+        margin: 5rem 2rem;
+    }
+    .playerContainer {
+        margin-top: 21rem;
+        border-top-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-left: 0rem;
+    }
+    .arrowTrino {
+        font-size: 10rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5rem 0;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    .musicTrino {
+        height: 30rem;
+        width: 30rem;
+        border-radius: 50%;
+        border-style: double;
+        color: rgba(0, 0, 0, 0.10);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fa-music {
+        font-size: 18rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgba(0, 0, 0, 0.8)
+    }
+    .trinoPlayer {
+        width: 45rem;
+        height: 45rem;
+        margin-left: 1.2rem;
+    }
+}
+
+/* ====LAPTOP 1440=== */
+
+@media (min-width: 1440px) {
+    .slideBarContainer {
+        display: block;
+    }
+    .wrapper {
+        display: none;
+    }
+    .wrapper2 {
+        display: none;
+    }
+    .wrapper3 {
+        display: flex;
+        position: absolute;
+        width: 100%;
+    }
+    .wrapper4 {
+        display: flex;
+        opacity: 0;
+        width: 100%;
+        animation-name: wrapper4;
+        animation-iteration-count: infinite;
+        animation-duration: 12s;
+    }
+    .item {
+        height: 7.5rem;
+    }
+    #home {
+        height: 7.5rem;
+    }
+    .date {
+        font-size: 1.1rem;
+    }
+    #ticketButton1 {
+        height: 3.5rem;
+        width: 12rem;
+        font-size: 1.5rem;
+    }
+    #ticketButton2 {
+        height: 3.5rem;
+        width: 12rem;
+        font-size: 1.5rem;
+    }
+    #ticketButton3 {
+        height: 3.5rem;
+        width: 12rem;
+        font-size: 1.5rem;
+    }
+    #ticketButton4 {
+        height: 3.5rem;
+        width: 12rem;
+        font-size: 1.5rem;
+    }
+    .slideBar {
+        position: relative;
+        animation-name: none;
+    }
+    .slideBar2 {
+        position: relative;
+        animation-name: none;
+    }
+    .slideBar3 {
+        position: relative;
+        animation-name: none;
+    }
+    .slideBar4 {
+        position: relative;
+        animation-name: none;
+    }
+    @keyframes wrapper4 {
+        0% {
+            opacity: 0;
+        }
+        20% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        75% {
+            opacity: 1;
+        }
+        95% {
+            opacity: 0;
+        }
+    }
+    #trino {
+        padding-top: 6rem;
+        padding-bottom: 10rem;
+        align-items: flex-start;
+        flex-direction: row;
+    }
+    .trinoHome {
+        height: 65rem;
         width: 65rem;
         padding: 2rem 1rem;
-        border-top-style: groove; color: rgba(0, 0, 0, 0.90);
-       margin-top: 25rem;
-       margin-right: 1.5rem;
+        border-top-style: groove;
+        color: rgba(0, 0, 0, 0.90);
+        margin-top: 25rem;
+        margin-right: 1.5rem;
     }
-    
-
-    
-    .dateCircle{
+    .dateCircle {
         height: 16rem;
         width: 16rem;
         font-size: 1.8rem;
-       
-    
     }
-
-    .line{
+    .line {
         display: block;
         width: 0;
         height: 175rem;
-        border-right-style: ridge; color: rgba(0, 0, 0, 0.90); 
+        border-right-style: ridge;
+        color: rgba(0, 0, 0, 0.90);
         margin: 8rem 2rem;
-       
     }
-
-    .playerContainer{
+    .playerContainer {
         margin-top: 35rem;
         border-top-style: none;
         display: flex;
@@ -950,243 +673,156 @@ display: flex;
         justify-content: center;
         flex-direction: column;
         margin-left: 2.5rem;
-
-
     }
-
-    .arrowTrino{
+    .arrowTrino {
         font-size: 18rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 8rem 0;
-    color: rgba(0, 0, 0, 0.8);
-    }
-
-    .musicTrino{
-height: 45rem;
-width: 45rem;
-border-radius: 50%;
-border-style: double;
-color:  rgba(0, 0, 0, 0.10);
-display: flex;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-       
-
-
-    }  
-
-    .fa-music{
+        margin: 8rem 0;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    .musicTrino {
+        height: 45rem;
+        width: 45rem;
+        border-radius: 50%;
+        border-style: double;
+        color: rgba(0, 0, 0, 0.10);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fa-music {
         font-size: 28rem;
         display: flex;
         justify-content: center;
         align-items: center;
-       
         color: rgba(0, 0, 0, 0.8)
-        
     }
-
-    .trinoPlayer{
-    width: 60rem;
-    height: 42rem;
-    margin-left: 1.2rem;
-    margin-top: 3rem;
-    
+    .trinoPlayer {
+        width: 60rem;
+        height: 42rem;
+        margin-left: 1.2rem;
+        margin-top: 3rem;
+    }
 }
-}
-
-
 
 /* ====LAPTOP 4k=== */
 
-
-@media (min-width: 2560px){
-  
-    .slideBarContainer{
+@media (min-width: 2560px) {
+    .slideBarContainer {
         display: block;
-    
-    
     }
     .wrapper {
-
         display: none;
-        
-      
-         
-        
-     }
-     
-     .wrapper2{
-       
-         display: none;
-       
-          }
-     
-     
-     
-      .wrapper3{
-         display: flex;
-         position: absolute;
-         width: 100%;
-        
-     
-     
-      }
-   
-      .wrapper4{
+    }
+    .wrapper2 {
+        display: none;
+    }
+    .wrapper3 {
+        display: flex;
+        position: absolute;
+        width: 100%;
+    }
+    .wrapper4 {
         display: flex;
         opacity: 0;
         width: 100%;
         animation-name: wrapper4;
         animation-iteration-count: infinite;
         animation-duration: 12s;
-     }
-
-
-     .item {
-
-        height: 12rem;
-    
     }
-    
-    #home{
+    .item {
         height: 12rem;
-    
     }
-
-
-  
-    
+    #home {
+        height: 12rem;
+    }
     .date {
-  
         font-size: 2rem;
     }
-     
-    
     #ticketButton1 {
-
         height: 7rem;
         width: 20rem;
         font-size: 2.5rem;
-        
     }
-    
     #ticketButton2 {
-       
         height: 7rem;
         width: 20rem;
         font-size: 2.5rem;
-        
     }
-    
     #ticketButton3 {
-        
         height: 7rem;
         width: 20rem;
         font-size: 2.5rem;
-        
     }
-    
     #ticketButton4 {
         height: 7rem;
         width: 20rem;
         font-size: 2.5rem;
-        
-        
     }
-      .slideBar {
-
-        
+    .slideBar {
         position: relative;
-          animation-name: none;
-         
-          
-         
-      }
-      
-      .slideBar2 {
-      
-          position: relative;
-          animation-name: none;
-      
-      }
-      
-      .slideBar3 {
-      
-          position: relative;
-          animation-name: none;
-          
-          
-      }
-      
-      .slideBar4 {
-      
-          position: relative;
-          animation-name: none;
-          
-      }
-
-    
-    
+        animation-name: none;
+    }
+    .slideBar2 {
+        position: relative;
+        animation-name: none;
+    }
+    .slideBar3 {
+        position: relative;
+        animation-name: none;
+    }
+    .slideBar4 {
+        position: relative;
+        animation-name: none;
+    }
     @keyframes wrapper4 {
-
         0% {
             opacity: 0;
         }
-    
         20% {
             opacity: 0;
         }
         50% {
             opacity: 1;
         }
-        75%{
+        75% {
             opacity: 1;
         }
-        95%{
+        95% {
             opacity: 0;
         }
     }
     #trino {
-       
         padding-top: 4rem;
         padding-bottom: 6rem;
-       align-items: flex-start;
+        align-items: flex-start;
         flex-direction: row;
     }
-    
     .trinoHome {
-       
-        height:90rem;
+        height: 90rem;
         width: 90rem;
-      
-        border-top-style: groove; color: rgba(0, 0, 0, 0.90);
-       margin-top: 35rem;
-       margin-right: 18rem;
+        border-top-style: groove;
+        color: rgba(0, 0, 0, 0.90);
+        margin-top: 35rem;
+        margin-right: 18rem;
     }
-    
-
-    
-    .dateCircle{
+    .dateCircle {
         height: 22rem;
         width: 22rem;
         font-size: 2.5rem;
-       margin: 3rem 0 0 1rem;
-    
+        margin: 3rem 0 0 1rem;
     }
-
-    .line{
+    .line {
         display: block;
         width: 0;
         height: 270rem;
-        border-right-style: ridge; color: rgba(0, 0, 0, 0.90); 
-       /*  margin: 8rem 2rem; */
-       
+        border-right-style: ridge;
+        color: rgba(0, 0, 0, 0.90);
     }
-
-    .playerContainer{
+    .playerContainer {
         margin-top: 35rem;
         border-top-style: none;
         display: flex;
@@ -1194,49 +830,37 @@ display: flex;
         justify-content: center;
         flex-direction: column;
         margin-left: 17rem;
-
-
     }
-
-    .arrowTrino{
+    .arrowTrino {
         font-size: 25rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 15rem 0;
-    color: rgba(0, 0, 0, 0.8);
-    }
-
-    .musicTrino{
-height: 90rem;
-width: 90rem;
-border-radius: 50%;
-border-style: double;
-color:  rgba(0, 0, 0, 0.10);
-display: flex;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-       
-
-
-    }  
-
-    .fa-music{
+        margin: 15rem 0;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    .musicTrino {
+        height: 90rem;
+        width: 90rem;
+        border-radius: 50%;
+        border-style: double;
+        color: rgba(0, 0, 0, 0.10);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .fa-music {
         font-size: 50rem;
         display: flex;
         justify-content: center;
         align-items: center;
-       
         color: rgba(0, 0, 0, 0.8)
-        
     }
-
-    .trinoPlayer{
-    width: 90rem;
-    height: 50rem;
-    margin-left: 1.2rem;
-    margin-top: 3rem;
-    
-}
+    .trinoPlayer {
+        width: 90rem;
+        height: 50rem;
+        margin-left: 1.2rem;
+        margin-top: 3rem;
+    }
 }

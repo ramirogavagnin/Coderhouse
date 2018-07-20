@@ -183,33 +183,27 @@ $('#liBio').one('click',  function show() {
 
     console.log(scrollTop)
 
-    
+    /* $('#bio').first().show( 1000, function showNext() {
+        $( this ).next( "div" ).show( 1000, showNext )
+      }) */
   
 
-        if(scrollTop > 1300){
+        if(scrollTop > 1200){
 
             function show() {
-                $('#bio').first().show( 500, function showNext() {
-                  $( this ).next( "div" ).show( 500, showNext )
-                })
+                $('#bio').show(700)
               }
               show()
         }
         if (scrollTop > 2100){
 
             function show() {
-                $('#discography').first().show( 500, function showNext() {
-                  $( this ).next( "div" ).show( 500, showNext )
-                })
-                  $('#agenda').first().show( 500, function showNext() {
-                    $( this ).next( "div" ).show( 500, showNext )
-                })
-                    $('#contacto').first().show( 500, function showNext() {
-                        $( this ).next( "div" ).show( 500, showNext )
-                    })
-                        $('#footer').first().show( 500, function showNext() {
-                            $( this ).next( "div" ).show( 500, showNext )
-                })
+                $('#discography').show( 700)
+
+                  $('#agenda').show(700)
+
+                    $('#contacto').show(700)
+                        $('#footer').show(700)
               }
 
               show()

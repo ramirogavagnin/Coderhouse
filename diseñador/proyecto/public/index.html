@@ -15,40 +15,40 @@
 <body>
 
     <!-- =========HEADER======== -->
-    <nav class="navbar">
-
-        <i class="fas fa-bars" id="toggle"></i>
-        <div id="toggleMenu">
-
-            <div id="menuContainer">
-                <i class="fas fa-times" id="toggleOff"></i>
+   
 
 
-                <ul id="menu">
+    <header>
+ <nav class="navbar">
+
+        <i class="fas fa-bars" id="barsMenuButton"></i>
+        <div id="menuContainer">
+
+            <div id="menu">
+                <i class="fas fa-times" id="crossMenuButton"></i>
+
+
+                <ul id="menuList">
                     <h3 class="uppercase menuText">aca seca</h3>
                     <a href="#home">
-                        <li>Home</li>
+                        <li id="liHome">Home</li>
                     </a>
                     <a href="#bio">
-                        <li>Bio</li>
+                        <li id="liBio">Bio</li>
                     </a>
                     <a href="#discography">
-                        <li>Discografía</li>
+                        <li id="liDiscography" >Discografía</li>
                     </a>
                     <a href="#agenda">
-                        <li>Agenda</li>
+                        <li id="liAgenda">Agenda</li>
                     </a>
                     <a href="#contacto">
-                        <li>Contacto</li>
+                        <li id="liContacto">Contacto</li>
                     </a>
                 </ul>
             </div>
         </div>
     </nav>
-
-
-
-    <header>
 
         <div class="headerCircle">
 
@@ -342,7 +342,7 @@
     <!-- ========TRINO======== -->
 
     <section id="trino">
-        <div class="trinoHome">
+        <div class="trinoHome" id="background2">
             <div class="dateCircle">
                 <h2>
                     <span class="textWhite uppercase">¡new</span>
@@ -913,10 +913,10 @@
                 </div>
             </div>
 
-            <div class="form">
+            <div class="form" id="form">
                 <form action="" class="formContainer">
                     <div>
-                        <input type="text" id="name" placeholder="Nombre y Apellido">
+                        <input type="text" id="firstName" placeholder="Nombre y Apellido">
                     </div>
                     <div>
                         <input type="number" id=phone placeholder="Teléfono">
@@ -925,11 +925,11 @@
                         <input type="text" id="email" placeholder="E-mail">
                     </div>
                     <div>
-                        <input type="text" name="ask" id="consulta" placeholder="Consulta">
+                        <input type="text" name="ask" id="comments" placeholder="Consulta">
                     </div>
 
                     <div class="submit">
-                        <input type="button" value="Enviar" name="submit" id="submit">
+                        <input type="button" value="Enviar" name="submit" id="submitButton">
                     </div>
 
 
