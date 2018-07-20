@@ -8,32 +8,7 @@ $(document).ready(function () {
 
     var menuContainerNode = $('#menuContainer')
 
-    // Codigo medio extraño para mostrar todo el contenido oculto si clickeo 
-    // desde los li del menu al cargar la pagina
-
-$('#liBio').one('click',  function show() {
-        $('#bio').show(), $('#discography').show(), $('#agenda').show(),
-        $('#contacto').show() 
-        })
-
-        $('#liDiscography').one('click',  function show() {
-            $('#bio').show(), $('#discography').show(), $('#agenda').show(),
-            $('#contacto').show() 
-            })
-
-            $('#liAgenda').one('click',  function show() {
-                $('#bio').show(), $('#discography').show(), $('#agenda').show(),
-                $('#contacto').show() 
-                })
-        
-                $('#liContacto').one('click',  function show() {
-                    $('#bio').show(), $('#discography').show(), $('#agenda').show(),
-                    $('#contacto').show() 
-                    })
-      
     
-
-
     barsMenuButtonNode.click(toggleMenu)
 
 
@@ -178,37 +153,6 @@ $('#liBio').one('click',  function show() {
     }
 
 
-    $(window).scroll(function () {
-        var scrollTop = $(window).scrollTop()
-
-    console.log(scrollTop)
-
-    /* $('#bio').first().show( 1000, function showNext() {
-        $( this ).next( "div" ).show( 1000, showNext )
-      }) */
-  
-
-        if(scrollTop > 1200){
-
-            function show() {
-                $('#bio').show(700)
-              }
-              show()
-        }
-        if (scrollTop > 2100){
-
-            function show() {
-                $('#discography').show( 700)
-
-                  $('#agenda').show(700)
-
-                    $('#contacto').show(700)
-                        $('#footer').show(700)
-              }
-
-              show()
-        }
-
-    })
+   
    
     })

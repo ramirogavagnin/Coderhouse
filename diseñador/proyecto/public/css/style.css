@@ -875,8 +875,7 @@ li {
 
 #bio {
   padding-top: 6rem;
-  padding-bottom: 2rem;
-  display: none; }
+  padding-bottom: 2rem; }
 
 .bioText {
   text-transform: capitalize;
@@ -1103,8 +1102,7 @@ li {
   background-color: rgba(0, 0, 0, 0.09);
   padding-top: 6rem;
   padding-bottom: 16rem;
-  margin-top: 6rem;
-  display: none; }
+  margin-top: 6rem; }
 
 .discography {
   height: 11rem;
@@ -1716,9 +1714,6 @@ li {
     font-size: 12rem;
     margin-top: 4rem; } }
 
-#agenda {
-  display: none; }
-
 .agendaImg {
   background-image: url("../img/coliseo.jpg");
   width: 100%;
@@ -1783,8 +1778,7 @@ li {
 
 #contacto {
   background-color: rgba(0, 0, 0, 0.09);
-  padding-top: 15rem;
-  display: none; }
+  padding-top: 15rem; }
 
 .contactContainer {
   background-color: rgba(0, 0, 0, 0.2);
@@ -1922,8 +1916,7 @@ li {
 
 #footer {
   background-color: rgba(0, 0, 0, 0.9);
-  padding: 1rem 0;
-  display: none; }
+  padding: 1rem 0; }
 
 .socialFooter {
   font-size: 2rem;
